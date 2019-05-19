@@ -1,0 +1,848 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Post List\n"
+"POT-Creation-Date: 2019-02-12 16:48+0100\n"
+"PO-Revision-Date: 2017-07-14 22:19+0200\n"
+"Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ultimate-post-list-admin.php:128
+msgid ""
+"Make up custom-tailored preview lists of the contents easily and place them "
+"in widget areas and post contents."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:171
+#: admin/class-ultimate-post-list-admin.php:189
+#: admin/class-ultimate-post-list-admin.php:335
+#: admin/class-ultimate-post-list-admin.php:429
+#: admin/class-ultimate-post-list-admin.php:593
+#: admin/partials/page-overview.php:39
+#: includes/class-ultimate-post-list-widget.php:18
+msgid "Ultimate Post List"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:172
+msgid ""
+"Make up custom-tailored preview lists of the website&#8217;s contents easily "
+"and place them in widget areas and post contents."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:175
+msgid "Add New List"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:176
+#: admin/class-ultimate-post-list-admin.php:431
+msgid "All Lists"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:177
+msgid "Post Lists Archives"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:178
+msgid "List Attributes"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:179
+msgid "Edit List"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:180
+msgid "Filter Post Lists"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:181
+msgid "Insert into list"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:182
+msgid "List of Post Lists"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:183
+msgid "Post Lists Navigation"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:184
+msgid "Ultimate Post Lists"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:185
+msgid "New List"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:186
+msgid "No lists found."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:187
+msgid "No lists found in trash."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:188
+msgid "Search Lists"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:190
+msgid "Uploaded to this list"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:191
+msgid "View List"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:192
+msgid "View Lists"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:242
+#: admin/partials/section-footer.php:19
+msgid "Helpful Links"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:334
+#: admin/partials/page-overview.php:38
+msgid "How to use the list as a widget"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:335
+#: admin/partials/page-overview.php:39
+#, php-format
+msgid ""
+"Go to the page %s, move the widget \"%s\" into the desired area and select "
+"the list you want to see in the website."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:336
+#: admin/partials/page-overview.php:41
+msgid "How to use the shortcode"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:337
+#: admin/partials/page-overview.php:43
+msgid ""
+"Copy the shortcode in the Shortcode box and insert it at the desired place "
+"in the content."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:351
+msgid "Copy shortcode to clipboard"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:362
+msgid "Do you need more options?"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:363
+msgid "Get the Pro version."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:365
+msgid "Reviews"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:366
+#: admin/partials/section-footer.php:22 admin/partials/widget-form.php:23
+msgid "Do you like the plugin?"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:367
+#: admin/partials/section-footer.php:23 admin/partials/widget-form.php:24
+#, php-format
+msgid "Rate it on %s."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:410
+msgid "The shortcode is now in the clipboard."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:604
+#: admin/partials/page-overview.php:34
+msgid "Create a new list."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:611
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:617
+#, php-format
+msgid "A documentation is available on the page %s."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:720
+#, php-format
+msgid "Duplicate &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:747
+#, php-format
+msgid "List %s successfully created."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:778
+msgid ""
+"Ultimate Post List can not copy a list. No list to duplicate has been "
+"supplied."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:790
+msgid "Ultimate Post List can not copy a list. The security token is missing."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:808
+msgid "Ultimate Post List can not copy a list. There is no such list."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:819
+msgid "- Copy"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:831
+#, php-format
+msgid "Ultimate Post List can not copy a list. Reason: %s"
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:840
+msgid ""
+"Ultimate Post List can not copy a list. The new list could not be created."
+msgstr ""
+
+#: admin/class-ultimate-post-list-admin.php:854
+msgid ""
+"Ultimate Post List can not copy a list. There is no meta data of the list."
+msgstr ""
+
+#: admin/partials/page-overview.php:28
+msgid "How to use the generator"
+msgstr ""
+
+#: admin/partials/page-overview.php:36
+msgid ""
+"After you published the new list you can use it both as a widget and as "
+"content in a post via the shortcode."
+msgstr ""
+
+#: admin/partials/page-overview.php:40
+msgid ""
+"You can add a title for the widget to show it on the website. Save the "
+"widget. The selected list is displayed on the website immediately."
+msgstr ""
+
+#: admin/partials/page-overview.php:42
+msgid "Screenshot of the Shortcode box"
+msgstr ""
+
+#: admin/partials/page-overview.php:44
+msgid ""
+"You can find the shortcode both in the table list of all post lists and in "
+"the Shortcode column and in the Shortcode box on the edit page of each list "
+"in the Shortcode box."
+msgstr ""
+
+#: admin/partials/page-overview.php:45
+msgid "Why do I not see the list?"
+msgstr ""
+
+#: admin/partials/page-overview.php:46
+msgid ""
+"You can use only published post lists as a widget or via the shortcode. If a "
+"formerly published list would be set to draft or deleted there would be no "
+"output. Not even an error message, fortunately. The widget or the shortcode "
+"remains in the widget area or in the text editor until you remove it."
+msgstr ""
+
+#: admin/partials/section-footer.php:21 admin/partials/widget-form.php:22
+msgid "Reviews at wordpress.org"
+msgstr ""
+
+#: admin/partials/widget-form.php:1
+msgid "List Selection:"
+msgstr ""
+
+#: admin/partials/widget-form.php:6
+msgid "List to display:"
+msgstr ""
+
+#: admin/partials/widget-form.php:18
+msgid ""
+"Select a post list. Only published lists are listed. The widget is visible "
+"in the website only a list was selected. If no list is displayed on the "
+"website please check: Was the list published? Is the list in the trash? Does "
+"the list exist at all?"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:72
+msgid "Use the CTRL key to select multiple entries."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:73
+msgid "Post title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:74
+#, php-format
+msgid ""
+"An URL starting with %s is accepted, else http:// is prepended automatically."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:78
+#, php-format
+msgid ""
+"Select the desired representation of the post date, as shown in the list "
+"exemplarily with the 1st of February in 2003. If not specified the date "
+"format as set at &#8220;%s&#8221; on the page &#8220;%s&#8221; is taken."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:129
+msgid "Position of post thumbnail"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:130
+msgid "Position of post title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:131
+msgid "Position of post date"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:132
+msgid "Position of post author name"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:133
+msgid "Position of post excerpt"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:188
+msgid "List Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:190
+msgid "List Display Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:194
+msgid "List Visibility"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:196
+msgid "Show title and text if no post is found"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:197
+msgid "Hide list if no post is found"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:203
+msgid "Text if no posts"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:205
+msgid "This field can be empty"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:210
+msgid "List Title Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:214
+msgid "Title of the list in post content"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:215
+msgid ""
+"If the list is displayed via shortcode in the content of a post or page you "
+"can set the list title by entering the headline. To remove the list title "
+"just leave this field empty. You can convert the text to a link and set the "
+"headline level with the next two options. If the list is displayed as a "
+"widget you can set the list title in the widget form."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:219
+msgid "URL of list title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:220
+msgid ""
+"If you want to link the list title to a web page enter the URL here. To "
+"remove the link just leave this field empty."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:224
+msgid "HTML element of list title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:234
+msgid "Headline level in lists printed by shortcode, ignored in widgets."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:239
+msgid "Post List Options In General"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:241
+msgid "Number of posts"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:241
+#, php-format
+msgid ""
+"Number of posts to show in the list. If the value is not an integer or 0 the "
+"default of %d is used."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:242
+msgid "Posts offset"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:242
+msgid ""
+"Number of post to displace or pass over. If the value is not an integer the "
+"default of 0 is used."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:243
+msgid "Hide current viewed post in list"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:244
+msgid "Show sticky posts on top of the list"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:248
+msgid "Posts Sort Order"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:252
+msgid "Order by"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:261
+msgid "Order direction"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:272
+msgid "Post Filter Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:274
+msgid "Post Type Filter"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:275
+msgid "Filters the posts by post type."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:279
+msgid "Show posts of selected types only"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:289
+msgid "Category Filters"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:290
+msgid "Filters the posts by categories."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:294
+msgid "Show posts of selected categories only"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:302
+msgid "Show only posts that are in all selected categories"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:318
+msgid "Post List Item Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:320
+msgid "Post Data Order"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:321
+msgid ""
+"Select a number to set the position of each post information. The higher the "
+"number the lower the position. If a number is used multiple times the result "
+"is not predictable. So use each number only once. Post informations which "
+"are set not to be shown will be ingored."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:325
+msgid "Post Display Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:327
+msgid "Show post thumbnail"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:328
+msgid "Show post title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:329
+msgid "Show post date"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:330
+msgid "Show post author name"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:331
+msgid "Show post excerpt"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:335
+msgid "Post Links Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:336
+msgid "Each link will point to the post unless otherwise specified."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:338
+msgid "Set post title clickable"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:339
+msgid "Set post thumbnail clickable"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:340
+msgid "Set post date clickable, pointing to the month archive"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:341
+msgid "Set post author clickable, pointing to the author&#8217;s archive"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:342
+msgid "Set post excerpt clickable"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:343
+msgid "Open post links in new windows"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:347
+msgid "Post Title Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:349
+msgid "Maximum length of post title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:349
+#: includes/class-ultimate-post-list-options.php:368
+msgid "Maximal number of letters"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:350
+msgid "Text after shortened title"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:354
+msgid "Post Date Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:359
+msgid "Format of the post date"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:366
+msgid "Post Excerpt Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:368
+msgid "Maximum length of post excerpt"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:369
+msgid "Text after shortened excerpt"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:370
+msgid "Ignore post excerpt field as excerpt source"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:370
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:371
+msgid "Ignore post content as excerpt source."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:371
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:376
+msgid "Post Thumbnail Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:380
+msgid "Source of the post thumbnail"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:382
+msgid "Featured image"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:383
+msgid "First post content image"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:384
+msgid "Featured image if the first post content image is not available"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:385
+msgid "First post content image if the featured image is not available"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:390
+msgid "Use default thumbnail if no image could be ascertained"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:393
+msgid "URL of default thumbnail"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:399
+msgid "Thumbnail size"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:403
+msgid "Width of thumbnail in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:404
+msgid "Height of thumbnail in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:405
+msgid "Use aspect ratios of original images"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:408
+msgid "Thumbnail alignment"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:415
+#, php-format
+msgid "If %s the values for the right and left margins will be ignored."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:417
+msgid "Top image margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:418
+msgid "Bottom image margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:419
+msgid "Left image margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:420
+msgid "Right image margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:421
+msgid "Radius of rounded image corners in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:426
+msgid "&#8220;More&#8221; Element Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:428
+msgid "&#8220;More&#8221; Element Appearance"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:429
+msgid ""
+"Switch on and off an element to load further list items without leaving the "
+"page. The theme determines the appearance of the element. In this way, the "
+"element fits optically perfectly."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:433
+msgid ""
+"Show a clickable &#8220;More&#8221; element for loading further list items "
+"at the bottom of the list"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:437
+msgid "&#8220;More&#8221; element type"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:439
+msgid "Show element as a link"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:440
+msgid "Show element as a button"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:446
+msgid "Label of &#8220;More&#8221; element"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:451
+msgid "Show icon while new posts are loaded"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:456
+msgid "Icon style"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:459
+msgid "Small icons"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:460
+msgid "Small gray circle with rotating dot"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:461
+msgid "Small turning wheel"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:463
+msgid "Big icons"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:464
+msgid "Big gray circle with rotating dot"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:465
+msgid "Big turning wheel"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:472
+msgid "Text that appears when no further posts have been found"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:479
+msgid "List Layout Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:481
+msgid "List Layout Type"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:485
+msgid "Type of list layout"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:487
+msgid "Vertical list"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:489
+msgid "Responsive grid"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:496
+msgid "Grid Layout Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:497
+msgid ""
+"These options only takes effect if a grid layout was selected in the "
+"previous option."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:499
+msgid "Width of grid item content in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:499
+msgid ""
+"If the specified width is smaller than the thumbnail width the thumbnail "
+"width will be used."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:500
+msgid "Minimal height of grid item in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:504
+msgid "List Item Layout Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:505
+msgid "Layout options for each list item."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:509
+msgid "List item layout type"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:511
+msgid "Text floats around the thumbnail"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:512
+msgid "Text is next to the thumbnail"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:519
+msgid "List Item Margin Options"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:520
+msgid "Set the space between each list item or grid element."
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:522
+msgid "Top item margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:523
+msgid "Bottom item margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:524
+msgid "Left item margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:525
+msgid "Right item margin in px"
+msgstr ""
+
+#: includes/class-ultimate-post-list-options.php:1047
+msgid "Specified width and height"
+msgstr ""
+
+#: includes/class-ultimate-post-list-widget.php:17
+msgid "List of your site&#8217;s posts as configured with Ultimate Post List."
+msgstr ""

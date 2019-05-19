@@ -1,0 +1,938 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Post List\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 16:48+0100\n"
+"PO-Revision-Date: 2019-02-12 16:48+0100\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ultimate-post-list-admin.php:128
+msgid ""
+"Make up custom-tailored preview lists of the contents easily and place them "
+"in widget areas and post contents."
+msgstr ""
+"Δημιουργήστε προσαρμοσμένες λίστες προεπισκόπησης των περιεχομένων, εύκολα "
+"και βάλτε τις σε περιοχές μικροεφαρμογών και περιεχόμενα άρθρων,"
+
+#: admin/class-ultimate-post-list-admin.php:171
+#: admin/class-ultimate-post-list-admin.php:189
+#: admin/class-ultimate-post-list-admin.php:335
+#: admin/class-ultimate-post-list-admin.php:429
+#: admin/class-ultimate-post-list-admin.php:593
+#: admin/partials/page-overview.php:39
+#: includes/class-ultimate-post-list-widget.php:18
+msgid "Ultimate Post List"
+msgstr "Ultimate Post List"
+
+#: admin/class-ultimate-post-list-admin.php:172
+msgid ""
+"Make up custom-tailored preview lists of the website&#8217;s contents easily "
+"and place them in widget areas and post contents."
+msgstr ""
+"Δημιουργήστε προσαρμοσμένες λίστες προεπισκόπησης του περιεχόμενου της "
+"ιστοσελίδας, εύκολα και βάλτε τις σε περιοχές μικροεφαρμογών και περιεχόμενα "
+"άρθρων,"
+
+#: admin/class-ultimate-post-list-admin.php:175
+msgid "Add New List"
+msgstr "Προσθήκη νέας λίστας"
+
+#: admin/class-ultimate-post-list-admin.php:176
+#: admin/class-ultimate-post-list-admin.php:431
+msgid "All Lists"
+msgstr "Όλες οι λίστες"
+
+#: admin/class-ultimate-post-list-admin.php:177
+msgid "Post Lists Archives"
+msgstr "Αρχεία λίστας άρθρων"
+
+#: admin/class-ultimate-post-list-admin.php:178
+msgid "List Attributes"
+msgstr "Ιδιότητες λίστας"
+
+#: admin/class-ultimate-post-list-admin.php:179
+msgid "Edit List"
+msgstr "Επεξεργασία λίστας"
+
+#: admin/class-ultimate-post-list-admin.php:180
+msgid "Filter Post Lists"
+msgstr "Φιλτράρισμα λίστας άρθρων"
+
+#: admin/class-ultimate-post-list-admin.php:181
+msgid "Insert into list"
+msgstr "Εισαγωγή στη λίστα"
+
+#: admin/class-ultimate-post-list-admin.php:182
+msgid "List of Post Lists"
+msgstr "Καταγραφή των λιστών άρθρων"
+
+#: admin/class-ultimate-post-list-admin.php:183
+msgid "Post Lists Navigation"
+msgstr "Πλοήγηση λιστών άρθρων"
+
+#: admin/class-ultimate-post-list-admin.php:184
+msgid "Ultimate Post Lists"
+msgstr "Ultimate Post Lists"
+
+#: admin/class-ultimate-post-list-admin.php:185
+msgid "New List"
+msgstr "Νέα λίστα"
+
+#: admin/class-ultimate-post-list-admin.php:186
+msgid "No lists found."
+msgstr "Δεν βρέθηκαν λίστες."
+
+#: admin/class-ultimate-post-list-admin.php:187
+msgid "No lists found in trash."
+msgstr "Δεν βρέθηκαν λίστες στα απορρίμματα."
+
+#: admin/class-ultimate-post-list-admin.php:188
+msgid "Search Lists"
+msgstr "Αναζήτηση λιστών"
+
+#: admin/class-ultimate-post-list-admin.php:190
+msgid "Uploaded to this list"
+msgstr "Φορτώθηκε σε αυτή τη λίστα"
+
+#: admin/class-ultimate-post-list-admin.php:191
+msgid "View List"
+msgstr "Εμφάνιση λίστας"
+
+#: admin/class-ultimate-post-list-admin.php:192
+msgid "View Lists"
+msgstr "Εμφάνιση λιστών"
+
+#: admin/class-ultimate-post-list-admin.php:242
+#: admin/partials/section-footer.php:19
+msgid "Helpful Links"
+msgstr "Χρήσιμοι σύνδεσμοι"
+
+#: admin/class-ultimate-post-list-admin.php:334
+#: admin/partials/page-overview.php:38
+msgid "How to use the list as a widget"
+msgstr "Πώς να χρησιμοποιήσετε τη λίστα ως μικροεφαρμογή"
+
+#: admin/class-ultimate-post-list-admin.php:335
+#: admin/partials/page-overview.php:39
+#, php-format
+msgid ""
+"Go to the page %s, move the widget \"%s\" into the desired area and select "
+"the list you want to see in the website."
+msgstr ""
+"Πηγαίνετε στη σελίδα %s, μετακινήστε τη μικροεφαρμογή \"%s\" στη περιοχή που "
+"επιθυμείτε και επιλέξτε τη λίστα που θέλετε να δείτε στην ιστοσελίδα."
+
+#: admin/class-ultimate-post-list-admin.php:336
+#: admin/partials/page-overview.php:41
+msgid "How to use the shortcode"
+msgstr "Πώς να χρησιμοποιήσετε τον σύντομου κώδικα"
+
+#: admin/class-ultimate-post-list-admin.php:337
+#: admin/partials/page-overview.php:43
+msgid ""
+"Copy the shortcode in the Shortcode box and insert it at the desired place "
+"in the content."
+msgstr ""
+"Αντιγράψτε τον σύντομου κώδικα στο πλαίσιο Σύντομου κώδικας και εισάγετέ τον "
+"στην επιθυμητή θέση στο περιεχόμενό σας."
+
+#: admin/class-ultimate-post-list-admin.php:351
+msgid "Copy shortcode to clipboard"
+msgstr "Αντιγράψτε τον σύντομο κωδικό στο Πρόχειρο"
+
+#: admin/class-ultimate-post-list-admin.php:362
+msgid "Do you need more options?"
+msgstr "Θέλετε περισσότερες επιλογές;"
+
+#: admin/class-ultimate-post-list-admin.php:363
+msgid "Get the Pro version."
+msgstr "Αγοράστε την PRO έκδοση."
+
+#: admin/class-ultimate-post-list-admin.php:365
+msgid "Reviews"
+msgstr "Κριτικές"
+
+#: admin/class-ultimate-post-list-admin.php:366
+#: admin/partials/section-footer.php:22 admin/partials/widget-form.php:23
+msgid "Do you like the plugin?"
+msgstr "Σας άρεσε το πρόσθετο;"
+
+#: admin/class-ultimate-post-list-admin.php:367
+#: admin/partials/section-footer.php:23 admin/partials/widget-form.php:24
+#, php-format
+msgid "Rate it on %s."
+msgstr "Αξιολογήστε το στο %s."
+
+#: admin/class-ultimate-post-list-admin.php:410
+msgid "The shortcode is now in the clipboard."
+msgstr "Ο σύντομος κωδικός είναι τώρα στο Πρόχειρο."
+
+#: admin/class-ultimate-post-list-admin.php:604
+#: admin/partials/page-overview.php:34
+msgid "Create a new list."
+msgstr "Δημιουργήστε μια νέα λίστα."
+
+#: admin/class-ultimate-post-list-admin.php:611
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr "Καλώς ήλθατε στο %s! Μπορείτε να βρείτε το πρόσθετο στο %s."
+
+#: admin/class-ultimate-post-list-admin.php:617
+#, php-format
+msgid "A documentation is available on the page %s."
+msgstr "Μια τεκμηρίωση είναι διαθέσιμη στη σελίδα %s."
+
+#: admin/class-ultimate-post-list-admin.php:720
+#, php-format
+msgid "Duplicate &#8220;%s&#8221;"
+msgstr "Διπλασιάστε &#8220;%s&#8221;"
+
+#: admin/class-ultimate-post-list-admin.php:747
+#, php-format
+msgid "List %s successfully created."
+msgstr "Η λίστα %s δημιουργήθηκε επιτυχώς."
+
+#: admin/class-ultimate-post-list-admin.php:778
+msgid ""
+"Ultimate Post List can not copy a list. No list to duplicate has been "
+"supplied."
+msgstr ""
+"Το Ultimate Post List δεν μπορεί να αντιγράψει μια λίστα. Καμία λίστα προς "
+"αντιγραφή δεν δόθηκε."
+
+#: admin/class-ultimate-post-list-admin.php:790
+msgid "Ultimate Post List can not copy a list. The security token is missing."
+msgstr ""
+"Το Ultimate Post List δεν μπορεί να αντιγράψει μια λίστα. Λείπει το token "
+"ασφαλείας."
+
+#: admin/class-ultimate-post-list-admin.php:808
+msgid "Ultimate Post List can not copy a list. There is no such list."
+msgstr ""
+"Το Ultimate Post List δεν μπορεί να αντιγράψει μια λίστα. Δεν υπάρχει "
+"σχετική λίστα."
+
+#: admin/class-ultimate-post-list-admin.php:819
+msgid "- Copy"
+msgstr "- Αντιγραφή"
+
+#: admin/class-ultimate-post-list-admin.php:831
+#, php-format
+msgid "Ultimate Post List can not copy a list. Reason: %s"
+msgstr "Το Ultimate Post List δεν μπορεί να αντιγράψει μια λίστα. Αιτία: %s"
+
+#: admin/class-ultimate-post-list-admin.php:840
+msgid ""
+"Ultimate Post List can not copy a list. The new list could not be created."
+msgstr ""
+"Το Ultimate Post List δεν μπορεί να αντιγράψει μια λίστα. Η νέα λίστα δεν "
+"μπορεί να δημιουργηθεί."
+
+#: admin/class-ultimate-post-list-admin.php:854
+msgid ""
+"Ultimate Post List can not copy a list. There is no meta data of the list."
+msgstr ""
+"Το Ultimate Post List δεν μπορεί να αντιγράψει μια λίστα. Δεν υπάρχουν "
+"μεταδεδομένα της λίστας."
+
+#: admin/partials/page-overview.php:28
+msgid "How to use the generator"
+msgstr "Πώς να χρησιμοποιήστε τον κατασκευαστή."
+
+#: admin/partials/page-overview.php:36
+msgid ""
+"After you published the new list you can use it both as a widget and as "
+"content in a post via the shortcode."
+msgstr ""
+"Μόλις δημοσιεύστε την νέα λίστα, μπορείτε να τη χρησιμοποιήσετε και ως "
+"μικροεφαρμογή, αλλά και σε ένα άρθρο μέσω του σύντομου κώδικα."
+
+#: admin/partials/page-overview.php:40
+msgid ""
+"You can add a title for the widget to show it on the website. Save the "
+"widget. The selected list is displayed on the website immediately."
+msgstr ""
+"Μπορείτε να προσθέσετε έναν τίτλο για τη μικροεφαρμογή, για να την "
+"εμφανίσετε στην ιστοσελίδα. Αποθηκεύστε την μικροεφαρμογή. Η επιλεγμένη "
+"λίστα εμφανίζεται στην ιστοσελίδα άμεσα."
+
+#: admin/partials/page-overview.php:42
+msgid "Screenshot of the Shortcode box"
+msgstr "Εικόνα του πεδίου εισαγωγής σύντομου κώδικα"
+
+#: admin/partials/page-overview.php:44
+msgid ""
+"You can find the shortcode both in the table list of all post lists and in "
+"the Shortcode column and in the Shortcode box on the edit page of each list "
+"in the Shortcode box."
+msgstr ""
+"Μπορείτε να βρείτε τον σύντομου κώδικα και στον πίνακα λίστας όλων των "
+"λιστών άρθρων, στη στήλη Σύντομου κώδικας αλλά και στο πεδίο Σύντομου "
+"κώδικας σε κάθε επεξεργασία σελίδας κάθε λίστας στο πεδίο Σύντομου κώδικας."
+
+#: admin/partials/page-overview.php:45
+msgid "Why do I not see the list?"
+msgstr "Γιατί δε βλέπω τη λίστα;"
+
+#: admin/partials/page-overview.php:46
+msgid ""
+"You can use only published post lists as a widget or via the shortcode. If a "
+"formerly published list would be set to draft or deleted there would be no "
+"output. Not even an error message, fortunately. The widget or the shortcode "
+"remains in the widget area or in the text editor until you remove it."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε μόνο τις δημοσιευμένες λίστες άρθρων ως "
+"μικροεφαρμογή ή μέσω του σύντομου κώδικα. Εάν μια λίστα που δημοσιεύθηκε στο "
+"παρελθόν είχε οριστεί ως προσχέδιο ή διαγεγραμμένη, δεν θα υπήρχε "
+"αποτέλεσμα. Ούτε καν ένα μήνυμα σφάλματος. Η μικροεφαρμογή ή ο σύντομου "
+"κώδικας παραμένει στην περιοχή μικροεφαρμογής ή στον επεξεργαστή κειμένου, "
+"μέχρι να την αφαιρέσετε."
+
+#: admin/partials/section-footer.php:21 admin/partials/widget-form.php:22
+msgid "Reviews at wordpress.org"
+msgstr "Κριτικές στο wordpress.org"
+
+#: admin/partials/widget-form.php:1
+msgid "List Selection:"
+msgstr "Επιλογή λίστας:"
+
+#: admin/partials/widget-form.php:6
+msgid "List to display:"
+msgstr "Λίστα προς εμφάνιση:"
+
+#: admin/partials/widget-form.php:18
+msgid ""
+"Select a post list. Only published lists are listed. The widget is visible "
+"in the website only a list was selected. If no list is displayed on the "
+"website please check: Was the list published? Is the list in the trash? Does "
+"the list exist at all?"
+msgstr ""
+"Επιλέξτε μια λίστα άρθρων. Μόνο οι δημοσιευμένες λίστες αναγράφονται. Η "
+"μικροεφαρμογή εμφανίζεται στην ιστοσελίδα μόνο αν επιλεγεί μια λίστα. Αν δεν "
+"εμφανίζεται παρακαλώ ελέγξτε: Δημοσιεύτηκε η λίστα; Είναι η λίστα στα "
+"απορρίμματα; Υπάρχει η λίστα γενικότερα;"
+
+#: includes/class-ultimate-post-list-options.php:72
+msgid "Use the CTRL key to select multiple entries."
+msgstr "Χρησιμοποιήστε το CTRL για να κάνετε πολλαπλές επιλογές."
+
+#: includes/class-ultimate-post-list-options.php:73
+msgid "Post title"
+msgstr "Τίτλος άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:74
+#, php-format
+msgid ""
+"An URL starting with %s is accepted, else http:// is prepended automatically."
+msgstr ""
+"Μια διεύθυνση που ξεκινά με %s είναι αποδεκτή, αλλιώς το http:// μπαίνει "
+"αυτόματα."
+
+#: includes/class-ultimate-post-list-options.php:78
+#, php-format
+msgid ""
+"Select the desired representation of the post date, as shown in the list "
+"exemplarily with the 1st of February in 2003. If not specified the date "
+"format as set at &#8220;%s&#8221; on the page &#8220;%s&#8221; is taken."
+msgstr ""
+"Επιλέξτε την επιθυμητή εμφάνιση της ημερομηνίας του άρθρου, όπως φαίνεται "
+"στη λίστα του παραδείγματος της 1ης Φεβρουαρίου του 2003. Αν δεν οριστεί η "
+"μορφή ημερομηνίας όπως ρυθμίστηκε στο &#8220;%s&#8221; στη σελίδα &#8220;"
+"%s&#8221; λαμβάνεται."
+
+#: includes/class-ultimate-post-list-options.php:129
+msgid "Position of post thumbnail"
+msgstr "Θέση της μικρογραφίας του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:130
+msgid "Position of post title"
+msgstr "Θέση του τίτλου του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:131
+msgid "Position of post date"
+msgstr "Θέση της ημερομηνίας του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:132
+msgid "Position of post author name"
+msgstr "Θέση του ονόματος συντάκτη"
+
+#: includes/class-ultimate-post-list-options.php:133
+msgid "Position of post excerpt"
+msgstr "Θέση του ταχυδρομικού του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:188
+msgid "List Options"
+msgstr "Επιλογές λίστας"
+
+#: includes/class-ultimate-post-list-options.php:190
+msgid "List Display Options"
+msgstr "Επιλογές εμφάνισης λίστας"
+
+#: includes/class-ultimate-post-list-options.php:194
+msgid "List Visibility"
+msgstr "Ορατότητα λίστας"
+
+#: includes/class-ultimate-post-list-options.php:196
+msgid "Show title and text if no post is found"
+msgstr "Εμφάνιση τίτλου και κειμένου αν δεν βρεθεί άρθρο"
+
+#: includes/class-ultimate-post-list-options.php:197
+msgid "Hide list if no post is found"
+msgstr "Απόκρυψη λίστας αν δε βρεθεί άρθρο"
+
+#: includes/class-ultimate-post-list-options.php:203
+msgid "Text if no posts"
+msgstr "Κείμενο όταν δεν υπάρχουν άρθρα"
+
+#: includes/class-ultimate-post-list-options.php:205
+msgid "This field can be empty"
+msgstr "Αυτό το πεδίο μπορεί να μείνει άδειο"
+
+#: includes/class-ultimate-post-list-options.php:210
+msgid "List Title Options"
+msgstr "Επιλογές τίτλου λίστας"
+
+#: includes/class-ultimate-post-list-options.php:214
+msgid "Title of the list in post content"
+msgstr "Τίτλος της λίστας στο περιεχόμενο άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:215
+msgid ""
+"If the list is displayed via shortcode in the content of a post or page you "
+"can set the list title by entering the headline. To remove the list title "
+"just leave this field empty. You can convert the text to a link and set the "
+"headline level with the next two options. If the list is displayed as a "
+"widget you can set the list title in the widget form."
+msgstr ""
+"Εάν η λίστα εμφανίζεται μέσω σύντομου κώδικα στο περιεχόμενο ενός άρθρου ή "
+"μιας σελίδας, μπορείτε να ορίσετε τον τίτλο της λίστας εισάγοντας την "
+"επικεφαλίδα. Για να καταργήσετε τον τίτλο της λίστας αφήστε αυτό το πεδίο "
+"κενό. Μπορείτε να μετατρέψετε το κείμενο σε σύνδεσμο και να ορίσετε το "
+"επίπεδο επικεφαλίδας με τις επόμενες δύο επιλογές. Εάν η λίστα εμφανίζεται "
+"ως μικροεφαρμογή, μπορείτε να ορίσετε τον τίτλο λίστας στη φόρμα "
+"μικροεφαρμογών."
+
+#: includes/class-ultimate-post-list-options.php:219
+msgid "URL of list title"
+msgstr "URL του τίτλου της λίστας"
+
+#: includes/class-ultimate-post-list-options.php:220
+msgid ""
+"If you want to link the list title to a web page enter the URL here. To "
+"remove the link just leave this field empty."
+msgstr ""
+"Αν θέλετε να συνδέσετε τον τίτλο της λίστας με μια ιστοσελίδα, εισάγετε το "
+"URL εδώ. Για να το αφαιρέσετε, απλά αφήστε το κενό."
+
+#: includes/class-ultimate-post-list-options.php:224
+msgid "HTML element of list title"
+msgstr "HTML στοιχείο του τίτλου της λίστας"
+
+#: includes/class-ultimate-post-list-options.php:234
+msgid "Headline level in lists printed by shortcode, ignored in widgets."
+msgstr ""
+"Επίπεδο επικεφαλίδας στις λίστας, τυπωμένο βάσει σύντομου κώδικα, αγνοείται "
+"από μικροεφαρμογές."
+
+#: includes/class-ultimate-post-list-options.php:239
+msgid "Post List Options In General"
+msgstr "Γενικές επιλογές λίστας άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:241
+msgid "Number of posts"
+msgstr "Αριθμός άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:241
+#, php-format
+msgid ""
+"Number of posts to show in the list. If the value is not an integer or 0 the "
+"default of %d is used."
+msgstr ""
+"Αριθμός άρθρων προς εμφάνιση στη λίστα. Αν η τιμή δεν είναι ακέραιος ή 0, "
+"χρησιμοποιείται η προεπιλεγμένη τιμή %d."
+
+#: includes/class-ultimate-post-list-options.php:242
+msgid "Posts offset"
+msgstr "Αντιστάθμιση άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:242
+msgid ""
+"Number of post to displace or pass over. If the value is not an integer the "
+"default of 0 is used."
+msgstr ""
+"Αριθμός άρθρων προς μετατόπιση η παράβλεψη. Αν η τιμή δεν είναι ακέραια, "
+"χρησιμοποιείται η προεπιλογή 0."
+
+#: includes/class-ultimate-post-list-options.php:243
+msgid "Hide current viewed post in list"
+msgstr "Απόκρυψη τρέχοντος άρθρου από τη λίστα"
+
+#: includes/class-ultimate-post-list-options.php:244
+msgid "Show sticky posts on top of the list"
+msgstr "Εμφάνιση προσκολλημένων άρθρων στη κορυφή της λίστας"
+
+#: includes/class-ultimate-post-list-options.php:248
+msgid "Posts Sort Order"
+msgstr "Σειρά ταξινόμησης των άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:252
+msgid "Order by"
+msgstr "Ταξινόμηση κατά"
+
+#: includes/class-ultimate-post-list-options.php:261
+msgid "Order direction"
+msgstr "Σειρά ταξινόμησης"
+
+#: includes/class-ultimate-post-list-options.php:272
+msgid "Post Filter Options"
+msgstr "Επιλογές φίλτρου για άρθρα"
+
+#: includes/class-ultimate-post-list-options.php:274
+msgid "Post Type Filter"
+msgstr "Φιλτράρισμα για τύπους άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:275
+msgid "Filters the posts by post type."
+msgstr "Φιλτράρισμα άρθρων ανά τύπο."
+
+#: includes/class-ultimate-post-list-options.php:279
+msgid "Show posts of selected types only"
+msgstr "Εμφάνιση άρθρων μόνο σε επιλεγμένους τύπους"
+
+#: includes/class-ultimate-post-list-options.php:289
+msgid "Category Filters"
+msgstr "Φίλτρα κατηγορίας"
+
+#: includes/class-ultimate-post-list-options.php:290
+msgid "Filters the posts by categories."
+msgstr "Φιλτράρισμα άρθρων ανά κατηγορία."
+
+#: includes/class-ultimate-post-list-options.php:294
+msgid "Show posts of selected categories only"
+msgstr "Εμφάνιση άρθρων μόνο σε επιλεγμένες κατηγορίες"
+
+#: includes/class-ultimate-post-list-options.php:302
+msgid "Show only posts that are in all selected categories"
+msgstr ""
+"Εμφάνιση μόνο των αναρτήσεων που εμφανίζονται σε όλες τις επιλεγμένες "
+"κατηγορίες"
+
+#: includes/class-ultimate-post-list-options.php:318
+msgid "Post List Item Options"
+msgstr "Επιλογές αντικειμένων λίστας άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:320
+msgid "Post Data Order"
+msgstr "Σειρά δεδομένων άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:321
+msgid ""
+"Select a number to set the position of each post information. The higher the "
+"number the lower the position. If a number is used multiple times the result "
+"is not predictable. So use each number only once. Post informations which "
+"are set not to be shown will be ingored."
+msgstr ""
+"Επιλέξτε έναν αριθμό για να ορίσετε τη θέση κάθε πληροφορίας του άρθρου. Όσο "
+"μεγαλύτερος είναι ο αριθμός, τόσο χαμηλότερη είναι η θέση. Εάν ένας αριθμός "
+"χρησιμοποιηθεί πολλές φορές το αποτέλεσμα δεν είναι προβλέψιμο. Έτσι "
+"χρησιμοποιήστε κάθε αριθμό μόνο μία φορά. Τα άρθρα που έχουν οριστεί να μην "
+"εμφανίζονται θα αγνοούνται."
+
+#: includes/class-ultimate-post-list-options.php:325
+msgid "Post Display Options"
+msgstr "Επιλογές εμφάνισης άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:327
+msgid "Show post thumbnail"
+msgstr "Εμφάνιση μικρογραφίας άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:328
+msgid "Show post title"
+msgstr "Εμφάνιση τίτλου άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:329
+msgid "Show post date"
+msgstr "Εμφάνιση ημερομηνίας άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:330
+msgid "Show post author name"
+msgstr "Εμφάνιση ονόματος συντάκτη"
+
+#: includes/class-ultimate-post-list-options.php:331
+msgid "Show post excerpt"
+msgstr "Εμφάνιση αποσπασμάτων άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:335
+msgid "Post Links Options"
+msgstr "Επιλογές συνδέσμων άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:336
+msgid "Each link will point to the post unless otherwise specified."
+msgstr ""
+"Κάθε σύνδεσμος θα στοχεύει στο άρθρο, εκτός και αν οριστεί διαφορετικά."
+
+#: includes/class-ultimate-post-list-options.php:338
+msgid "Set post title clickable"
+msgstr "Να είναι σύνδεσμος ο τίτλος του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:339
+msgid "Set post thumbnail clickable"
+msgstr "Να είναι σύνδεσμος η μικρογραφία του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:340
+msgid "Set post date clickable, pointing to the month archive"
+msgstr "Να είναι σύνδεσμος η ημερομηνία του άρθρου προς το αρχείο του μήνα"
+
+#: includes/class-ultimate-post-list-options.php:341
+msgid "Set post author clickable, pointing to the author&#8217;s archive"
+msgstr "Να είναι σύνδεσμος ο συντάκτης του άρθρου προς το αρχείο του συντάκτη"
+
+#: includes/class-ultimate-post-list-options.php:342
+msgid "Set post excerpt clickable"
+msgstr "Σύνδεσμος με το απόσπασμα του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:343
+msgid "Open post links in new windows"
+msgstr "Άνοιγμα συνδέσμων άρθρων σε νέο παράθυρο"
+
+#: includes/class-ultimate-post-list-options.php:347
+msgid "Post Title Options"
+msgstr "Επιλογές τίτλου άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:349
+msgid "Maximum length of post title"
+msgstr "Μέγιστο μέγεθος τίτλου άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:349
+#: includes/class-ultimate-post-list-options.php:368
+msgid "Maximal number of letters"
+msgstr "Μέγιστος αριθμός χαρακτήρων"
+
+#: includes/class-ultimate-post-list-options.php:350
+msgid "Text after shortened title"
+msgstr "Κείμενο μετά από τη περικοπή του τίτλου"
+
+#: includes/class-ultimate-post-list-options.php:354
+msgid "Post Date Options"
+msgstr "Επιλογές ημερομηνίας του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:359
+msgid "Format of the post date"
+msgstr "Μορφή της ημερομηνίας του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:366
+msgid "Post Excerpt Options"
+msgstr "Επιλογές επιλογών άρθρων"
+
+#: includes/class-ultimate-post-list-options.php:368
+msgid "Maximum length of post excerpt"
+msgstr "Μέγιστο μήκος αποσπασμάτων"
+
+#: includes/class-ultimate-post-list-options.php:369
+msgid "Text after shortened excerpt"
+msgstr "Κείμενο μετά από συντομεύσεις κειμένου"
+
+#: includes/class-ultimate-post-list-options.php:370
+msgid "Ignore post excerpt field as excerpt source"
+msgstr "Αγνοήστε το πεδίο απόσπασμα post ως πηγή αποσπάσματος"
+
+#: includes/class-ultimate-post-list-options.php:370
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+"Κανονικά το γραφικό στοιχείο παίρνει αμετάβλητο το απόσπασμα από το κείμενο "
+"του πεδίου αποσπάσματος και αν δεν υπάρχει κείμενο, δημιουργεί αυτόματα το "
+"απόσπασμα από το περιεχόμενο μετά. Αν ενεργοποιηθεί αυτή η επιλογή, το "
+"απόσπασμα δημιουργείται μόνο από το περιεχόμενο μετά."
+
+#: includes/class-ultimate-post-list-options.php:371
+msgid "Ignore post content as excerpt source."
+msgstr "Αγνοήστε το περιεχόμενο δημοσίευσης ως προέλευση αποσπάσματος."
+
+#: includes/class-ultimate-post-list-options.php:371
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"Εάν ενεργοποιηθεί, τα αποσπάσματα δημιουργούνται μόνο από τα πεδία "
+"αποσπάσματος. Εάν είναι ενεργοποιημένα και τα δύο πλαίσια ελέγχου Παράβλεψη "
+"δεν εμφανίζονται αποσπάσματα στη λίστα."
+
+#: includes/class-ultimate-post-list-options.php:376
+msgid "Post Thumbnail Options"
+msgstr "Επιλογές μικρογραφίας του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:380
+msgid "Source of the post thumbnail"
+msgstr "Πηγή της μικρογραφίας του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:382
+msgid "Featured image"
+msgstr "Προβεβλημένη εικόνα"
+
+#: includes/class-ultimate-post-list-options.php:383
+msgid "First post content image"
+msgstr "Πρώτη εικόνα περιεχομένου του άρθρου"
+
+#: includes/class-ultimate-post-list-options.php:384
+msgid "Featured image if the first post content image is not available"
+msgstr ""
+"Προβεβλημένη εικόνα αν δεν είναι διαθέσιμη η πρώτη εικόνα περιεχομένου από "
+"το άρθρο"
+
+#: includes/class-ultimate-post-list-options.php:385
+msgid "First post content image if the featured image is not available"
+msgstr ""
+"Πρώτη εικόνα περιεχομένου του άρθρου αν δεν είναι διαθέσιμη η προβεβλημένη "
+"εικόνα"
+
+#: includes/class-ultimate-post-list-options.php:390
+msgid "Use default thumbnail if no image could be ascertained"
+msgstr "Χρήση της προεπιλεγμένης μικρογραφίας αν δεν μπορεί να ανατεθεί εικόνα"
+
+#: includes/class-ultimate-post-list-options.php:393
+msgid "URL of default thumbnail"
+msgstr "URL της προεπιλεγμένης μικρογραφίας"
+
+#: includes/class-ultimate-post-list-options.php:399
+msgid "Thumbnail size"
+msgstr "Μέγεθος μικρογραφίας"
+
+#: includes/class-ultimate-post-list-options.php:403
+msgid "Width of thumbnail in px"
+msgstr "Πλάτος μικρογραφίας σε px"
+
+#: includes/class-ultimate-post-list-options.php:404
+msgid "Height of thumbnail in px"
+msgstr "Ύψος μικρογραφίας σε px"
+
+#: includes/class-ultimate-post-list-options.php:405
+msgid "Use aspect ratios of original images"
+msgstr "Χρήση αναλογίας των αρχικών εικόνων"
+
+#: includes/class-ultimate-post-list-options.php:408
+msgid "Thumbnail alignment"
+msgstr "Ευθυγράμμιση της μικρογραφίας"
+
+#: includes/class-ultimate-post-list-options.php:415
+#, php-format
+msgid "If %s the values for the right and left margins will be ignored."
+msgstr "Αν %s , οι τιμές για το αριστερό και το δεξί περιθώριο θα αγνοηθούν."
+
+#: includes/class-ultimate-post-list-options.php:417
+msgid "Top image margin in px"
+msgstr "Άνω περιθώριο της εικόνας σε px"
+
+#: includes/class-ultimate-post-list-options.php:418
+msgid "Bottom image margin in px"
+msgstr "Κάτω περιθώριο της εικόνας σε px"
+
+#: includes/class-ultimate-post-list-options.php:419
+msgid "Left image margin in px"
+msgstr "Αριστερό περιθώριο της εικόνας σε px"
+
+#: includes/class-ultimate-post-list-options.php:420
+msgid "Right image margin in px"
+msgstr "Δεξί περιθώριο της εικόνας σε px"
+
+#: includes/class-ultimate-post-list-options.php:421
+msgid "Radius of rounded image corners in px"
+msgstr "Ακτίνα γωνιών κυκλικής εικόνας σε px"
+
+#: includes/class-ultimate-post-list-options.php:426
+msgid "&#8220;More&#8221; Element Options"
+msgstr "Επιλογές στοιχείου &#8220;Περισσότερα&#8221;"
+
+#: includes/class-ultimate-post-list-options.php:428
+msgid "&#8220;More&#8221; Element Appearance"
+msgstr "Εμφάνιση στοιχείου &#8220;Περισσότερα&#8221;"
+
+#: includes/class-ultimate-post-list-options.php:429
+msgid ""
+"Switch on and off an element to load further list items without leaving the "
+"page. The theme determines the appearance of the element. In this way, the "
+"element fits optically perfectly."
+msgstr ""
+"Ενεργοποιήστε ή απενεργοποιήστε ένα στοιχείο για να φορτώσετε περισσότερα "
+"στοιχεία λίστας χωρίς να φύγετε από τη σελίδα. Το θέμα αποφασίζει την "
+"εμφάνιση του στοιχείου. Με αυτόν τον τρόπο, το στοιχείο ταιριάζει τέλεια."
+
+#: includes/class-ultimate-post-list-options.php:433
+msgid ""
+"Show a clickable &#8220;More&#8221; element for loading further list items "
+"at the bottom of the list"
+msgstr ""
+"Εμφάνιση ενός στοιχείου κουμπιού &#8220;Περισσότερα&#8221; για τη φόρτωση "
+"περισσότερων στοιχείων της λίστας στο τέλος της"
+
+#: includes/class-ultimate-post-list-options.php:437
+msgid "&#8220;More&#8221; element type"
+msgstr "&#8220;Περισσότερα&#8221; τύπος στοιχείου"
+
+#: includes/class-ultimate-post-list-options.php:439
+msgid "Show element as a link"
+msgstr "Εμφάνιση στοιχείου ως σύνδεσμο"
+
+#: includes/class-ultimate-post-list-options.php:440
+msgid "Show element as a button"
+msgstr "Εμφάνιση στοιχείου ως κουμπιού"
+
+#: includes/class-ultimate-post-list-options.php:446
+msgid "Label of &#8220;More&#8221; element"
+msgstr "Ετικέτα του στοιχείου &#8220;Περισσότερα&#8221;"
+
+#: includes/class-ultimate-post-list-options.php:451
+msgid "Show icon while new posts are loaded"
+msgstr "Εμφάνιση εικονιδίου καθώς φορτώνονται νέα άρθρα"
+
+#: includes/class-ultimate-post-list-options.php:456
+msgid "Icon style"
+msgstr "Στυλ εικονιδίου"
+
+#: includes/class-ultimate-post-list-options.php:459
+msgid "Small icons"
+msgstr "Μικρά εικονίδια"
+
+#: includes/class-ultimate-post-list-options.php:460
+msgid "Small gray circle with rotating dot"
+msgstr "Μικρός γκρι κύκλος με περιστρεφόμενες κουκίδες"
+
+#: includes/class-ultimate-post-list-options.php:461
+msgid "Small turning wheel"
+msgstr "Μικρός περιστρεφόμενος τροχός"
+
+#: includes/class-ultimate-post-list-options.php:463
+msgid "Big icons"
+msgstr "Μεγάλα εικονίδια"
+
+#: includes/class-ultimate-post-list-options.php:464
+msgid "Big gray circle with rotating dot"
+msgstr "Μεγάλος γκρι κύκλος με περιστρεφόμενες κουκίδες"
+
+#: includes/class-ultimate-post-list-options.php:465
+msgid "Big turning wheel"
+msgstr "Μεγάλος περιστρεφόμενος τροχός"
+
+#: includes/class-ultimate-post-list-options.php:472
+msgid "Text that appears when no further posts have been found"
+msgstr "Κείμενο που εμφανίζεται όταν δεν υπάρχουν άλλα άρθρα"
+
+#: includes/class-ultimate-post-list-options.php:479
+msgid "List Layout Options"
+msgstr "Επιλογές διάταξης λίστας"
+
+#: includes/class-ultimate-post-list-options.php:481
+msgid "List Layout Type"
+msgstr "Τύπος διάταξης λίστας"
+
+#: includes/class-ultimate-post-list-options.php:485
+msgid "Type of list layout"
+msgstr "Τύπος της διάταξης της λίστας"
+
+#: includes/class-ultimate-post-list-options.php:487
+msgid "Vertical list"
+msgstr "Κάθετη λίστα"
+
+#: includes/class-ultimate-post-list-options.php:489
+msgid "Responsive grid"
+msgstr "Ανταποκρινόμενο πλέγμα"
+
+#: includes/class-ultimate-post-list-options.php:496
+msgid "Grid Layout Options"
+msgstr "Επιλογές διάταξης πλέγματος"
+
+#: includes/class-ultimate-post-list-options.php:497
+msgid ""
+"These options only takes effect if a grid layout was selected in the "
+"previous option."
+msgstr ""
+"Αυτές οι επιλογές εφαρμόζονται αν έχει επιλεγεί διάταξη πλέγματος από την "
+"προηγούμενη επιλογή."
+
+#: includes/class-ultimate-post-list-options.php:499
+msgid "Width of grid item content in px"
+msgstr "Πλάτος του πλέγματος περιεχομένου σε px"
+
+#: includes/class-ultimate-post-list-options.php:499
+msgid ""
+"If the specified width is smaller than the thumbnail width the thumbnail "
+"width will be used."
+msgstr ""
+"Αν το καθορισμένο πλάτος είναι μικρότερο από το πλάτος μικρογραφίας, θα "
+"χρησιμοποιηθεί το πλάτος μικρογραφίας"
+
+#: includes/class-ultimate-post-list-options.php:500
+msgid "Minimal height of grid item in px"
+msgstr "Ελάχιστο ύψος πλέγματος σε px"
+
+#: includes/class-ultimate-post-list-options.php:504
+msgid "List Item Layout Options"
+msgstr "Επιλογές διάταξης διάταξης στοιχείου"
+
+#: includes/class-ultimate-post-list-options.php:505
+msgid "Layout options for each list item."
+msgstr "Επιλογές διάταξης για κάθε στοιχείο λίστας."
+
+#: includes/class-ultimate-post-list-options.php:509
+msgid "List item layout type"
+msgstr "Τύπος διάταξης στοιχείου λίστας"
+
+#: includes/class-ultimate-post-list-options.php:511
+msgid "Text floats around the thumbnail"
+msgstr "Το κείμενο επιπλέει γύρω από τη μικρογραφία"
+
+#: includes/class-ultimate-post-list-options.php:512
+msgid "Text is next to the thumbnail"
+msgstr "Το κείμενο βρίσκεται δίπλα στη μικρογραφία"
+
+#: includes/class-ultimate-post-list-options.php:519
+msgid "List Item Margin Options"
+msgstr "Επιλογές περιθωρίων αντικειμένου λίστας"
+
+#: includes/class-ultimate-post-list-options.php:520
+msgid "Set the space between each list item or grid element."
+msgstr "Ορισμός διάκενου μεταξύ κάθε στοιχείου λίστας ή πλέγματος"
+
+#: includes/class-ultimate-post-list-options.php:522
+msgid "Top item margin in px"
+msgstr "Άνω περιθώριο σε px"
+
+#: includes/class-ultimate-post-list-options.php:523
+msgid "Bottom item margin in px"
+msgstr "Κάτω περιθώριο σε px"
+
+#: includes/class-ultimate-post-list-options.php:524
+msgid "Left item margin in px"
+msgstr "Αριστερό περιθώριο σε px"
+
+#: includes/class-ultimate-post-list-options.php:525
+msgid "Right item margin in px"
+msgstr "Δεξί περιθώριο σε px"
+
+#: includes/class-ultimate-post-list-options.php:1047
+msgid "Specified width and height"
+msgstr "Προσαρμοσμένο πλάτος και ύψος"
+
+#: includes/class-ultimate-post-list-widget.php:17
+msgid "List of your site&#8217;s posts as configured with Ultimate Post List."
+msgstr ""
+"Λίστα των άρθρων της ιστοσελίδας σας, όπως ρυθμίστηκαν με το Ultimate Post "
+"List."
+
+#~ msgid "Shortcode"
+#~ msgstr "Σύντομου κώδικα"

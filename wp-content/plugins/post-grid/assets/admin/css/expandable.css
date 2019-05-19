@@ -1,0 +1,49 @@
+/*
+Admin css
+*/
+
+.pg-expandable{}
+.pg-expandable .item{}
+.pg-expandable .item {
+	background: #eee;
+	/* border-bottom: 1px solid rgb(153, 153, 153); */
+	margin: 1px 0;
+}
+.pg-expandable  .header {
+	background:#eee;
+	padding: 10px;
+}
+
+.pg-expandable .header .move {
+	padding: 10px;
+	cursor: move;
+}
+
+.pg-expandable  .expand-collapse{padding: 10px;cursor: pointer;}
+.pg-expandable  .expand-collapse .fa-expand{ display:inline-block;}
+.pg-expandable  .expand-collapse .fa-compress{ display:none;}
+.pg-expandable  .item.active .expand-collapse .fa-expand{ display:none;}
+.pg-expandable  .item.active .expand-collapse .fa-compress{ display:inline-block;}
+
+
+
+
+.pg-expandable .active .options {
+  
+	display: block;
+
+}
+.pg-expandable .options {
+	background: #eeeeeea8;
+	display: none;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+

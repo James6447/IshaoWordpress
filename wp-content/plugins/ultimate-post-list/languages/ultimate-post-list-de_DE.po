@@ -1,0 +1,927 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Post List\n"
+"POT-Creation-Date: 2019-02-12 16:45+0100\n"
+"PO-Revision-Date: 2019-02-12 16:47+0100\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Martin Stehle <m.stehle@gmx.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ultimate-post-list-admin.php:128
+msgid ""
+"Make up custom-tailored preview lists of the contents easily and place them "
+"in widget areas and post contents."
+msgstr ""
+"Erstelle maßgeschneiderte Vorschaulisten der Inhalte und setze sie in Widget-"
+"Bereiche und Inhalte rein."
+
+#: admin/class-ultimate-post-list-admin.php:171
+#: admin/class-ultimate-post-list-admin.php:189
+#: admin/class-ultimate-post-list-admin.php:335
+#: admin/class-ultimate-post-list-admin.php:429
+#: admin/class-ultimate-post-list-admin.php:593
+#: admin/partials/page-overview.php:39
+#: includes/class-ultimate-post-list-widget.php:18
+msgid "Ultimate Post List"
+msgstr "Ultimative Beitragsliste"
+
+#: admin/class-ultimate-post-list-admin.php:172
+msgid ""
+"Make up custom-tailored preview lists of the website&#8217;s contents easily "
+"and place them in widget areas and post contents."
+msgstr ""
+"Erstelle maßgeschneiderte Vorschaulisten der Inhalte und setze sie in Widget-"
+"Bereiche und Inhalte rein."
+
+#: admin/class-ultimate-post-list-admin.php:175
+msgid "Add New List"
+msgstr "Füge eine neue Liste hinzu"
+
+#: admin/class-ultimate-post-list-admin.php:176
+#: admin/class-ultimate-post-list-admin.php:431
+msgid "All Lists"
+msgstr "Alle Listen"
+
+#: admin/class-ultimate-post-list-admin.php:177
+msgid "Post Lists Archives"
+msgstr "Archive der Beitragslisten"
+
+#: admin/class-ultimate-post-list-admin.php:178
+msgid "List Attributes"
+msgstr "Listen-Attribute"
+
+#: admin/class-ultimate-post-list-admin.php:179
+msgid "Edit List"
+msgstr "Bearbeite Liste"
+
+#: admin/class-ultimate-post-list-admin.php:180
+msgid "Filter Post Lists"
+msgstr "Filtere Beitragslisten"
+
+#: admin/class-ultimate-post-list-admin.php:181
+msgid "Insert into list"
+msgstr "In die Liste einfügen"
+
+#: admin/class-ultimate-post-list-admin.php:182
+msgid "List of Post Lists"
+msgstr "Liste der Beitragslisten"
+
+#: admin/class-ultimate-post-list-admin.php:183
+msgid "Post Lists Navigation"
+msgstr "Navigation der Beitragslisten"
+
+#: admin/class-ultimate-post-list-admin.php:184
+msgid "Ultimate Post Lists"
+msgstr "Ultimative Beitragslisten"
+
+#: admin/class-ultimate-post-list-admin.php:185
+msgid "New List"
+msgstr "Neue Liste"
+
+#: admin/class-ultimate-post-list-admin.php:186
+msgid "No lists found."
+msgstr "Keine Liste gefunden."
+
+#: admin/class-ultimate-post-list-admin.php:187
+msgid "No lists found in trash."
+msgstr "Keine Liste im Papierkorb gefunden."
+
+#: admin/class-ultimate-post-list-admin.php:188
+msgid "Search Lists"
+msgstr "Suche Listen"
+
+#: admin/class-ultimate-post-list-admin.php:190
+msgid "Uploaded to this list"
+msgstr "Zu dieser Liste hochgeladen"
+
+#: admin/class-ultimate-post-list-admin.php:191
+msgid "View List"
+msgstr "Liste ansehen"
+
+#: admin/class-ultimate-post-list-admin.php:192
+msgid "View Lists"
+msgstr "Listen ansehen"
+
+#: admin/class-ultimate-post-list-admin.php:242
+#: admin/partials/section-footer.php:19
+msgid "Helpful Links"
+msgstr "Hilfreiche Links"
+
+#: admin/class-ultimate-post-list-admin.php:334
+#: admin/partials/page-overview.php:38
+msgid "How to use the list as a widget"
+msgstr "Wie die Liste als Widget verwendet wird"
+
+#: admin/class-ultimate-post-list-admin.php:335
+#: admin/partials/page-overview.php:39
+#, php-format
+msgid ""
+"Go to the page %s, move the widget \"%s\" into the desired area and select "
+"the list you want to see in the website."
+msgstr ""
+"Gehe zur %s-Seite, verschiebe das Widget \"%s\" in den gewünschten Bereich "
+"und wähle die Liste aus, die du in der Website sehen willst."
+
+#: admin/class-ultimate-post-list-admin.php:336
+#: admin/partials/page-overview.php:41
+msgid "How to use the shortcode"
+msgstr "Wie der Shortcode verwendet wird"
+
+#: admin/class-ultimate-post-list-admin.php:337
+#: admin/partials/page-overview.php:43
+msgid ""
+"Copy the shortcode in the Shortcode box and insert it at the desired place "
+"in the content."
+msgstr ""
+"Kopiere den Shortcode im Shortcode-Kasten und füge ihn an der gewünschten "
+"Stelle im Inhalt ein."
+
+#: admin/class-ultimate-post-list-admin.php:351
+msgid "Copy shortcode to clipboard"
+msgstr "Shortcode in die Zwischenablage kopieren"
+
+#: admin/class-ultimate-post-list-admin.php:362
+msgid "Do you need more options?"
+msgstr "Brauchst du mehr Einstellmöglichkeiten?"
+
+#: admin/class-ultimate-post-list-admin.php:363
+msgid "Get the Pro version."
+msgstr "Gehe zur Pro-Version."
+
+#: admin/class-ultimate-post-list-admin.php:365
+msgid "Reviews"
+msgstr "Reviews"
+
+#: admin/class-ultimate-post-list-admin.php:366
+#: admin/partials/section-footer.php:22 admin/partials/widget-form.php:23
+msgid "Do you like the plugin?"
+msgstr "Gefällt dir das Plugin?"
+
+#: admin/class-ultimate-post-list-admin.php:367
+#: admin/partials/section-footer.php:23 admin/partials/widget-form.php:24
+#, php-format
+msgid "Rate it on %s."
+msgstr "Bewerte es auf %s."
+
+#: admin/class-ultimate-post-list-admin.php:410
+msgid "The shortcode is now in the clipboard."
+msgstr "Der Shortcode ist jetzt in der Zwischenablage."
+
+#: admin/class-ultimate-post-list-admin.php:604
+#: admin/partials/page-overview.php:34
+msgid "Create a new list."
+msgstr "Erstelle eine neue Liste."
+
+#: admin/class-ultimate-post-list-admin.php:611
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr "Willkommen zu %s! Du kannst das Plugin finden unter %s."
+
+#: admin/class-ultimate-post-list-admin.php:617
+#, php-format
+msgid "A documentation is available on the page %s."
+msgstr "Eine Dokumentation ist auf Seite %s verfügbar."
+
+#: admin/class-ultimate-post-list-admin.php:720
+#, php-format
+msgid "Duplicate &#8220;%s&#8221;"
+msgstr "Dupliziere &#8222;%s&#8220;"
+
+#: admin/class-ultimate-post-list-admin.php:747
+#, php-format
+msgid "List %s successfully created."
+msgstr "Liste %s erfolgreich erstellt."
+
+#: admin/class-ultimate-post-list-admin.php:778
+msgid ""
+"Ultimate Post List can not copy a list. No list to duplicate has been "
+"supplied."
+msgstr ""
+"Ultimative Beitragsliste kann keine Liste kopieren. Keine Liste wurde zum "
+"Kopieren ausgewählt."
+
+#: admin/class-ultimate-post-list-admin.php:790
+msgid "Ultimate Post List can not copy a list. The security token is missing."
+msgstr ""
+"Ultimative Beitragsliste kann keine Liste kopieren. Der Sicherheitsschlüssel "
+"fehlt."
+
+#: admin/class-ultimate-post-list-admin.php:808
+msgid "Ultimate Post List can not copy a list. There is no such list."
+msgstr ""
+"Ultimative Beitragsliste kann keine Liste kopieren. Es gibt diese Liste "
+"nicht."
+
+#: admin/class-ultimate-post-list-admin.php:819
+msgid "- Copy"
+msgstr "- Kopie"
+
+#: admin/class-ultimate-post-list-admin.php:831
+#, php-format
+msgid "Ultimate Post List can not copy a list. Reason: %s"
+msgstr "Ultimative Beitragsliste kann keine Liste kopieren. Grund: %s"
+
+#: admin/class-ultimate-post-list-admin.php:840
+msgid ""
+"Ultimate Post List can not copy a list. The new list could not be created."
+msgstr ""
+"Ultimative Beitragsliste kann keine Liste kopieren. Die neue Liste konnte "
+"nicht erstellt werden."
+
+#: admin/class-ultimate-post-list-admin.php:854
+msgid ""
+"Ultimate Post List can not copy a list. There is no meta data of the list."
+msgstr ""
+"Ultimative Beitragsliste kann keine Liste kopieren. Es sind keine Meta-Daten "
+"der Liste vorhanden."
+
+#: admin/partials/page-overview.php:28
+msgid "How to use the generator"
+msgstr "Wie der Generator verwendet wird"
+
+#: admin/partials/page-overview.php:36
+msgid ""
+"After you published the new list you can use it both as a widget and as "
+"content in a post via the shortcode."
+msgstr ""
+"Nachdem du die neue Liste veröffentlicht hast, kannst du sie sowohl als "
+"Widget als auch mittels Shortcode als Inhalt in einem Beitrag nutzen."
+
+#: admin/partials/page-overview.php:40
+msgid ""
+"You can add a title for the widget to show it on the website. Save the "
+"widget. The selected list is displayed on the website immediately."
+msgstr ""
+"Du kannst eine Überschrift für das Widget angeben, um sie auf der Website "
+"anzuzeigen. Die ausgewählte Liste ist auf der Website sofort zu sehen."
+
+#: admin/partials/page-overview.php:42
+msgid "Screenshot of the Shortcode box"
+msgstr "Bildschirmfoto des Shortcode-Kastens"
+
+#: admin/partials/page-overview.php:44
+msgid ""
+"You can find the shortcode both in the table list of all post lists and in "
+"the Shortcode column and in the Shortcode box on the edit page of each list "
+"in the Shortcode box."
+msgstr ""
+"Du kannst den Shortcode sowohl auf der tabellarischen Liste aller "
+"Beitragslisten in der Shortcode-Spalte als auch in dem Shortcode-Kasten auf "
+"der Bearbeitungsseite jeder Liste finden."
+
+#: admin/partials/page-overview.php:45
+msgid "Why do I not see the list?"
+msgstr "Warum sehe ich die Liste nicht?"
+
+#: admin/partials/page-overview.php:46
+msgid ""
+"You can use only published post lists as a widget or via the shortcode. If a "
+"formerly published list would be set to draft or deleted there would be no "
+"output. Not even an error message, fortunately. The widget or the shortcode "
+"remains in the widget area or in the text editor until you remove it."
+msgstr ""
+"Du kannst nur veröffentlichte Beitragslisten als Widget oder mittels "
+"Shortcode nutzen. Sollte eine vormals veröffentlichte Liste als Entwurf "
+"eingestellt oder gelöscht worden sein, erfolgt keine Darstellung. Nicht mal "
+"eine Fehlermeldung, zum Glück. Das Widget oder der Shortcode bleiben im "
+"Widget-Bereich oder im Text-Editor, bis du sie entfernst."
+
+#: admin/partials/section-footer.php:21 admin/partials/widget-form.php:22
+msgid "Reviews at wordpress.org"
+msgstr "Reviews bei wordpress.org"
+
+#: admin/partials/widget-form.php:1
+msgid "List Selection:"
+msgstr "Listenauswahl:"
+
+#: admin/partials/widget-form.php:6
+msgid "List to display:"
+msgstr "Anzuzeigende Liste:"
+
+#: admin/partials/widget-form.php:18
+msgid ""
+"Select a post list. Only published lists are listed. The widget is visible "
+"in the website only a list was selected. If no list is displayed on the "
+"website please check: Was the list published? Is the list in the trash? Does "
+"the list exist at all?"
+msgstr ""
+"Wähle eine Beitragsliste aus. Nur veröffentlichte Listen sind aufgeführt. "
+"Das Widget ist in der Website nur dann sichtbar,wenn eine Liste ausgewählt "
+"wurde. Wird keine Liste in der Website angezeigt, prüfe bitte: Wurde die "
+"Liste veröffentlicht? Ist die Liste im Papierkorb? Gibt es die Liste "
+"überhaupt?"
+
+#: includes/class-ultimate-post-list-options.php:72
+msgid "Use the CTRL key to select multiple entries."
+msgstr "Verwende die STRG-Taste, um mehrere Einträge auszuwählen."
+
+#: includes/class-ultimate-post-list-options.php:73
+msgid "Post title"
+msgstr "Titel des Beitrages"
+
+#: includes/class-ultimate-post-list-options.php:74
+#, php-format
+msgid ""
+"An URL starting with %s is accepted, else http:// is prepended automatically."
+msgstr ""
+"Eine Webadresse, die mit %s beginnt, ist erlaubt, ansonsten wird http:// "
+"automatisch vorangestellt."
+
+#: includes/class-ultimate-post-list-options.php:78
+#, php-format
+msgid ""
+"Select the desired representation of the post date, as shown in the list "
+"exemplarily with the 1st of February in 2003. If not specified the date "
+"format as set at &#8220;%s&#8221; on the page &#8220;%s&#8221; is taken."
+msgstr ""
+"Wähle die gewünschte Darstellung des Beitragsdatums aus, wie in der Liste "
+"beispielhaft mit dem 1. Februar 2003 dargestellt. Falls kein Format "
+"eingestellt ist, wird es wie bei &#8222;%s&#8220; auf der Seite &#8222;"
+"%s&#8220; angegeben übernommen."
+
+#: includes/class-ultimate-post-list-options.php:129
+msgid "Position of post thumbnail"
+msgstr "Position des Vorschaubildes"
+
+#: includes/class-ultimate-post-list-options.php:130
+msgid "Position of post title"
+msgstr "Position der Beitragsüberschrift"
+
+#: includes/class-ultimate-post-list-options.php:131
+msgid "Position of post date"
+msgstr "Position des Beitragsdatums"
+
+#: includes/class-ultimate-post-list-options.php:132
+msgid "Position of post author name"
+msgstr "Position des Autorennamens"
+
+#: includes/class-ultimate-post-list-options.php:133
+msgid "Position of post excerpt"
+msgstr "Position des Beitragsauszugs"
+
+#: includes/class-ultimate-post-list-options.php:188
+msgid "List Options"
+msgstr "Listenoptionen"
+
+#: includes/class-ultimate-post-list-options.php:190
+msgid "List Display Options"
+msgstr "Listenanzeigeoptionen"
+
+#: includes/class-ultimate-post-list-options.php:194
+msgid "List Visibility"
+msgstr "Sichtbarkeit der Liste"
+
+#: includes/class-ultimate-post-list-options.php:196
+msgid "Show title and text if no post is found"
+msgstr "Zeige Überschrift und Text, wenn kein Beitrag gefunden wurde"
+
+#: includes/class-ultimate-post-list-options.php:197
+msgid "Hide list if no post is found"
+msgstr "Verstecke die Liste, wenn kein Beitrag gefunden wurde"
+
+#: includes/class-ultimate-post-list-options.php:203
+msgid "Text if no posts"
+msgstr "Text, wenn kein Beitrag vorhanden ist"
+
+#: includes/class-ultimate-post-list-options.php:205
+msgid "This field can be empty"
+msgstr "Dieses Feld kann leer sein"
+
+#: includes/class-ultimate-post-list-options.php:210
+msgid "List Title Options"
+msgstr "Optionen der Listenüberschrift"
+
+#: includes/class-ultimate-post-list-options.php:214
+msgid "Title of the list in post content"
+msgstr "Überschrift der Liste im Beitragsinhalt"
+
+#: includes/class-ultimate-post-list-options.php:215
+msgid ""
+"If the list is displayed via shortcode in the content of a post or page you "
+"can set the list title by entering the headline. To remove the list title "
+"just leave this field empty. You can convert the text to a link and set the "
+"headline level with the next two options. If the list is displayed as a "
+"widget you can set the list title in the widget form."
+msgstr ""
+"Wenn die Liste mittels eine Shortcodes im Inhalt eines Beitrags oder einer "
+"Seite angezeigt wird, kannst du die Listenüberschrift durch Eingabe eines "
+"Textes festlegen. Um eine Listenüberschrift zu entfernen, lasse dieses Feld "
+"leer. Mit den nächsten beiden Optionen kannst du den Text zu einem Link "
+"umwandeln und die Überschriftenebene einstellen. Wird die Liste als ein "
+"Widget angezeigt, kannst du die Listenüberschrift im Widget festlegen."
+
+#: includes/class-ultimate-post-list-options.php:219
+msgid "URL of list title"
+msgstr "Webadresse der Listenüberschrift"
+
+#: includes/class-ultimate-post-list-options.php:220
+msgid ""
+"If you want to link the list title to a web page enter the URL here. To "
+"remove the link just leave this field empty."
+msgstr ""
+"Wenn du den Listentitel mit einer Webseite verknüpfen willst, gebe hier die "
+"URL an. Um den Link zu entfernen, lasse dieses Feld leer."
+
+#: includes/class-ultimate-post-list-options.php:224
+msgid "HTML element of list title"
+msgstr "HTML-Element der Listenüberschrift"
+
+#: includes/class-ultimate-post-list-options.php:234
+msgid "Headline level in lists printed by shortcode, ignored in widgets."
+msgstr ""
+"Ebene der Listenüberschrift in Listen, die mittels Shortcode angezeigt "
+"werden; wird in Widgets ignoriert."
+
+#: includes/class-ultimate-post-list-options.php:239
+msgid "Post List Options In General"
+msgstr "Allgemeine Optionen der Beitragsliste"
+
+#: includes/class-ultimate-post-list-options.php:241
+msgid "Number of posts"
+msgstr "Anzahl der Beiträge"
+
+#: includes/class-ultimate-post-list-options.php:241
+#, php-format
+msgid ""
+"Number of posts to show in the list. If the value is not an integer or 0 the "
+"default of %d is used."
+msgstr ""
+"Anzahl der anzuzeigenden Beiträge in der Liste. Sollte der Werte keine "
+"Ganzzahl oder 0 sein, wird die Standardeinstellung von %d verwendet."
+
+#: includes/class-ultimate-post-list-options.php:242
+msgid "Posts offset"
+msgstr "Versatz der Beiträge"
+
+#: includes/class-ultimate-post-list-options.php:242
+msgid ""
+"Number of post to displace or pass over. If the value is not an integer the "
+"default of 0 is used."
+msgstr ""
+"Anzahl der zu überspringenden Beiträge. Sollte der Wert keine Ganzzahl sein, "
+"wird die Standardwert 0 verwendet."
+
+#: includes/class-ultimate-post-list-options.php:243
+msgid "Hide current viewed post in list"
+msgstr "Aktuellen Beitrag in der Liste nicht anzeigen"
+
+#: includes/class-ultimate-post-list-options.php:244
+msgid "Show sticky posts on top of the list"
+msgstr "Zeige oben haftende (sticky) Beiträge am Anfang der Liste an"
+
+#: includes/class-ultimate-post-list-options.php:248
+msgid "Posts Sort Order"
+msgstr "Sortierung der Beiträge"
+
+#: includes/class-ultimate-post-list-options.php:252
+msgid "Order by"
+msgstr "Sortiert nach"
+
+#: includes/class-ultimate-post-list-options.php:261
+msgid "Order direction"
+msgstr "Sortierrichtung"
+
+#: includes/class-ultimate-post-list-options.php:272
+msgid "Post Filter Options"
+msgstr "Optionen der Beitragsfllter"
+
+#: includes/class-ultimate-post-list-options.php:274
+msgid "Post Type Filter"
+msgstr "Inhaltstypfilter"
+
+#: includes/class-ultimate-post-list-options.php:275
+msgid "Filters the posts by post type."
+msgstr "Filtert die Beiträge nach Inhaltstyp."
+
+#: includes/class-ultimate-post-list-options.php:279
+msgid "Show posts of selected types only"
+msgstr "Zeige nur Beiträge ausgewählter Inhaltstypen"
+
+#: includes/class-ultimate-post-list-options.php:289
+msgid "Category Filters"
+msgstr "Kategorienfilter"
+
+#: includes/class-ultimate-post-list-options.php:290
+msgid "Filters the posts by categories."
+msgstr "Filtert die Beiträge nach Kategorien."
+
+#: includes/class-ultimate-post-list-options.php:294
+msgid "Show posts of selected categories only"
+msgstr "Nur Beiträge der ausgewählten Kategorien auflisten"
+
+#: includes/class-ultimate-post-list-options.php:302
+msgid "Show only posts that are in all selected categories"
+msgstr "Zeige nur Beiträge, die in allen ausgewählten Kategorien sind"
+
+#: includes/class-ultimate-post-list-options.php:318
+msgid "Post List Item Options"
+msgstr "Optionen eines Listenpunktes"
+
+#: includes/class-ultimate-post-list-options.php:320
+msgid "Post Data Order"
+msgstr "Sortierung der Beitragsangaben"
+
+#: includes/class-ultimate-post-list-options.php:321
+msgid ""
+"Select a number to set the position of each post information. The higher the "
+"number the lower the position. If a number is used multiple times the result "
+"is not predictable. So use each number only once. Post informations which "
+"are set not to be shown will be ingored."
+msgstr ""
+"Wähle eine Zahl, um die Position jeder Beitragsangabe einzustellen. Je höher "
+"die Zahl, desto weiter unten die Position. Wird eine Zahl mehrmals "
+"verwendet, ist das Ergebnis nicht voraussagbar. Nutzer daher jede Zahl nur "
+"einmal. Beitragsangaben, die als nicht anzuzeigen eingestellt sind, werden "
+"ignoriert."
+
+#: includes/class-ultimate-post-list-options.php:325
+msgid "Post Display Options"
+msgstr "Optionen der Beitragsanzeige"
+
+#: includes/class-ultimate-post-list-options.php:327
+msgid "Show post thumbnail"
+msgstr "Zeige Vorschaubild"
+
+#: includes/class-ultimate-post-list-options.php:328
+msgid "Show post title"
+msgstr "Beitragstitel anzeigen"
+
+#: includes/class-ultimate-post-list-options.php:329
+msgid "Show post date"
+msgstr "Zeige Beitragsdatum"
+
+#: includes/class-ultimate-post-list-options.php:330
+msgid "Show post author name"
+msgstr "Zeige Autorenname"
+
+#: includes/class-ultimate-post-list-options.php:331
+msgid "Show post excerpt"
+msgstr "Zeige Beitragsauszug"
+
+#: includes/class-ultimate-post-list-options.php:335
+msgid "Post Links Options"
+msgstr "Optionen der Beitragslinks"
+
+#: includes/class-ultimate-post-list-options.php:336
+msgid "Each link will point to the post unless otherwise specified."
+msgstr "Jeder Link führt zum Beitrag, wenn nicht anders angegeben."
+
+#: includes/class-ultimate-post-list-options.php:338
+msgid "Set post title clickable"
+msgstr "Verlinke Beitragstitel"
+
+#: includes/class-ultimate-post-list-options.php:339
+msgid "Set post thumbnail clickable"
+msgstr "Verlinke Vorschaubild"
+
+#: includes/class-ultimate-post-list-options.php:340
+msgid "Set post date clickable, pointing to the month archive"
+msgstr "Verlinke Beitragsdatum mit dem Monatsarchiv"
+
+#: includes/class-ultimate-post-list-options.php:341
+msgid "Set post author clickable, pointing to the author&#8217;s archive"
+msgstr "Verlinke Autorenname mit dem Archiv des Autors"
+
+#: includes/class-ultimate-post-list-options.php:342
+msgid "Set post excerpt clickable"
+msgstr "Verlinke Beitragsauszug"
+
+#: includes/class-ultimate-post-list-options.php:343
+msgid "Open post links in new windows"
+msgstr "Links der Beiträge in neuen Fenstern öffnen"
+
+#: includes/class-ultimate-post-list-options.php:347
+msgid "Post Title Options"
+msgstr "Optionen des Beitragstitels"
+
+#: includes/class-ultimate-post-list-options.php:349
+msgid "Maximum length of post title"
+msgstr "Maximallänge des Beitragstitels"
+
+#: includes/class-ultimate-post-list-options.php:349
+#: includes/class-ultimate-post-list-options.php:368
+msgid "Maximal number of letters"
+msgstr "Maximale Anzahl an Buchstaben"
+
+#: includes/class-ultimate-post-list-options.php:350
+msgid "Text after shortened title"
+msgstr "Text nach gekürztem Beitragstitel"
+
+#: includes/class-ultimate-post-list-options.php:354
+msgid "Post Date Options"
+msgstr "Optionen des Beitragsdatums"
+
+#: includes/class-ultimate-post-list-options.php:359
+msgid "Format of the post date"
+msgstr "Format des Beitragsdatums"
+
+#: includes/class-ultimate-post-list-options.php:366
+msgid "Post Excerpt Options"
+msgstr "Optionen des Beitragsauszugs"
+
+#: includes/class-ultimate-post-list-options.php:368
+msgid "Maximum length of post excerpt"
+msgstr "Maximallänge des Beitragsauszugs"
+
+#: includes/class-ultimate-post-list-options.php:369
+msgid "Text after shortened excerpt"
+msgstr "Text nach dem gekürzten Beitragsauszugs"
+
+#: includes/class-ultimate-post-list-options.php:370
+msgid "Ignore post excerpt field as excerpt source"
+msgstr "Auszugsfeld des Beitrags als Auszugsquelle ignorieren"
+
+#: includes/class-ultimate-post-list-options.php:370
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+"Normalerweise übernimmt das Widget den Text aus dem Auszugsfeld unverändert, "
+"und falls es keinen Text geben sollte, erstellt es den Auszug automatisch "
+"aus dem Beitragsinhalt. Wenn diese Option aktiviert ist, wird der Auszug nur "
+"aus dem Beitragsinhalt erstellt."
+
+#: includes/class-ultimate-post-list-options.php:371
+msgid "Ignore post content as excerpt source."
+msgstr "Inhalt des Beitrags als Auszugsquelle ignorieren"
+
+#: includes/class-ultimate-post-list-options.php:371
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"Wenn aktiviert, werden die Auszüge nur durch die Auszugsfelder der Beiträge "
+"erzeugt. Wenn beide Ignorieren-Checkboxen aktiviert sind, werden in der "
+"Liste keine Auszüge angezeigt."
+
+#: includes/class-ultimate-post-list-options.php:376
+msgid "Post Thumbnail Options"
+msgstr "Optionen des Vorschaubildes"
+
+#: includes/class-ultimate-post-list-options.php:380
+msgid "Source of the post thumbnail"
+msgstr "Quelle des Vorschaubildes"
+
+#: includes/class-ultimate-post-list-options.php:382
+msgid "Featured image"
+msgstr "Beitragsbild"
+
+#: includes/class-ultimate-post-list-options.php:383
+msgid "First post content image"
+msgstr "Erstes Bild im Inhalt"
+
+#: includes/class-ultimate-post-list-options.php:384
+msgid "Featured image if the first post content image is not available"
+msgstr "Beitragsbild, wenn kein erstes Bild im Inhalt vorhanden ist"
+
+#: includes/class-ultimate-post-list-options.php:385
+msgid "First post content image if the featured image is not available"
+msgstr "Erstes Bild im Inhalt, wenn kein Beitragsbild vorhanden ist"
+
+#: includes/class-ultimate-post-list-options.php:390
+msgid "Use default thumbnail if no image could be ascertained"
+msgstr "Verwende das Standardbild, wenn kein Bild ermittelt werden konnte"
+
+#: includes/class-ultimate-post-list-options.php:393
+msgid "URL of default thumbnail"
+msgstr "Webadresse des Standardbildes"
+
+#: includes/class-ultimate-post-list-options.php:399
+msgid "Thumbnail size"
+msgstr "Größe des Vorschaubildes"
+
+#: includes/class-ultimate-post-list-options.php:403
+msgid "Width of thumbnail in px"
+msgstr "Breite des Vorschaubildes in px"
+
+#: includes/class-ultimate-post-list-options.php:404
+msgid "Height of thumbnail in px"
+msgstr "Höhe des Vorschaubildes in px"
+
+#: includes/class-ultimate-post-list-options.php:405
+msgid "Use aspect ratios of original images"
+msgstr "Seitenverhältnisse der Originalbilder verwenden"
+
+#: includes/class-ultimate-post-list-options.php:408
+msgid "Thumbnail alignment"
+msgstr "Ausrichtung des Vorschaubildes"
+
+#: includes/class-ultimate-post-list-options.php:415
+#, php-format
+msgid "If %s the values for the right and left margins will be ignored."
+msgstr "Falls %s, werden die Werte für rechte und linke Ränder ignoriert."
+
+#: includes/class-ultimate-post-list-options.php:417
+msgid "Top image margin in px"
+msgstr "Oberer Bildabstand in px"
+
+#: includes/class-ultimate-post-list-options.php:418
+msgid "Bottom image margin in px"
+msgstr "Unterer Bildabstand in px"
+
+#: includes/class-ultimate-post-list-options.php:419
+msgid "Left image margin in px"
+msgstr "Linker Bildabstand in px"
+
+#: includes/class-ultimate-post-list-options.php:420
+msgid "Right image margin in px"
+msgstr "Rechter Bildabstand in px"
+
+#: includes/class-ultimate-post-list-options.php:421
+msgid "Radius of rounded image corners in px"
+msgstr "Radius gerunderter Bildecken in px"
+
+#: includes/class-ultimate-post-list-options.php:426
+msgid "&#8220;More&#8221; Element Options"
+msgstr "Optionen des &#8222;Mehr&#8220;-Elements"
+
+#: includes/class-ultimate-post-list-options.php:428
+msgid "&#8220;More&#8221; Element Appearance"
+msgstr "Aussehen des &#8222;Mehr&#8220;-Elements"
+
+#: includes/class-ultimate-post-list-options.php:429
+msgid ""
+"Switch on and off an element to load further list items without leaving the "
+"page. The theme determines the appearance of the element. In this way, the "
+"element fits optically perfectly."
+msgstr ""
+"Schalte das Element an oder aus, um weitere Listenelemente zu laden, ohne "
+"die Seite zu verlassen. Das Theme bestimmt das Aussehen des Elements. Auf "
+"diese Weise passt es optisch perfekt."
+
+#: includes/class-ultimate-post-list-options.php:433
+msgid ""
+"Show a clickable &#8220;More&#8221; element for loading further list items "
+"at the bottom of the list"
+msgstr ""
+"Zeige ein anklickbares &#8222;Mehr&#8220;-Element zum Laden weiterer "
+"Listenelemente am unteren Rand der Liste"
+
+#: includes/class-ultimate-post-list-options.php:437
+msgid "&#8220;More&#8221; element type"
+msgstr "Optionen des &#8222;Mehr&#8220;-Elements"
+
+#: includes/class-ultimate-post-list-options.php:439
+msgid "Show element as a link"
+msgstr "Zeige Element als Link"
+
+#: includes/class-ultimate-post-list-options.php:440
+msgid "Show element as a button"
+msgstr "Zeige Element als Schaltfläche"
+
+#: includes/class-ultimate-post-list-options.php:446
+msgid "Label of &#8220;More&#8221; element"
+msgstr "Text des &#8222;Mehr&#8220;-Elements"
+
+#: includes/class-ultimate-post-list-options.php:451
+msgid "Show icon while new posts are loaded"
+msgstr "Zeige Symbol, während neue Beiträge geladen werden"
+
+#: includes/class-ultimate-post-list-options.php:456
+msgid "Icon style"
+msgstr "Symbolstil"
+
+#: includes/class-ultimate-post-list-options.php:459
+msgid "Small icons"
+msgstr "Kleine Symbole"
+
+#: includes/class-ultimate-post-list-options.php:460
+msgid "Small gray circle with rotating dot"
+msgstr "Kleiner grauer Kreis mit rotierendem Punkt"
+
+#: includes/class-ultimate-post-list-options.php:461
+msgid "Small turning wheel"
+msgstr "Kleines, sich drehendes Rad"
+
+#: includes/class-ultimate-post-list-options.php:463
+msgid "Big icons"
+msgstr "Große Symbole"
+
+#: includes/class-ultimate-post-list-options.php:464
+msgid "Big gray circle with rotating dot"
+msgstr "Großer grauer Kreis mit rotierendem Punkt"
+
+#: includes/class-ultimate-post-list-options.php:465
+msgid "Big turning wheel"
+msgstr "Großes, sich drehendes Rad"
+
+#: includes/class-ultimate-post-list-options.php:472
+msgid "Text that appears when no further posts have been found"
+msgstr "Text, der erscheint, wenn keine weiteren Beiträge gefunden wurden"
+
+#: includes/class-ultimate-post-list-options.php:479
+msgid "List Layout Options"
+msgstr "Layout-Optionen der Liste"
+
+#: includes/class-ultimate-post-list-options.php:481
+msgid "List Layout Type"
+msgstr "Layout-Typ der Liste"
+
+#: includes/class-ultimate-post-list-options.php:485
+msgid "Type of list layout"
+msgstr "Art des Listen-Layouts"
+
+#: includes/class-ultimate-post-list-options.php:487
+msgid "Vertical list"
+msgstr "Vertikale Liste"
+
+#: includes/class-ultimate-post-list-options.php:489
+msgid "Responsive grid"
+msgstr "Responsives Raster"
+
+#: includes/class-ultimate-post-list-options.php:496
+msgid "Grid Layout Options"
+msgstr "Optionen des Rasters"
+
+#: includes/class-ultimate-post-list-options.php:497
+msgid ""
+"These options only takes effect if a grid layout was selected in the "
+"previous option."
+msgstr ""
+"Diese Optionen wirken nur, wenn ein Raster-Layout in der vorhergehenden "
+"Option eingestellt wurde."
+
+#: includes/class-ultimate-post-list-options.php:499
+msgid "Width of grid item content in px"
+msgstr "Breite des Inhalts eines Rasterelements in px"
+
+#: includes/class-ultimate-post-list-options.php:499
+msgid ""
+"If the specified width is smaller than the thumbnail width the thumbnail "
+"width will be used."
+msgstr ""
+"Falls die angegebene Breite kleiner als die Vorschaubildbreite ist, wird die "
+"Vorschaubildbreite verwendet."
+
+#: includes/class-ultimate-post-list-options.php:500
+msgid "Minimal height of grid item in px"
+msgstr "Mindesthöhe des Rasterelements in px"
+
+#: includes/class-ultimate-post-list-options.php:504
+msgid "List Item Layout Options"
+msgstr "Layout-Optionen der Listenelemente"
+
+#: includes/class-ultimate-post-list-options.php:505
+msgid "Layout options for each list item."
+msgstr "Layout-Optionen für jeden Listenpunkt."
+
+#: includes/class-ultimate-post-list-options.php:509
+msgid "List item layout type"
+msgstr "Layout-Typ des Listenpunkts"
+
+#: includes/class-ultimate-post-list-options.php:511
+msgid "Text floats around the thumbnail"
+msgstr "Text umfließt das Vorschaubild"
+
+#: includes/class-ultimate-post-list-options.php:512
+msgid "Text is next to the thumbnail"
+msgstr "Text steht neben dem Vorschaubild"
+
+#: includes/class-ultimate-post-list-options.php:519
+msgid "List Item Margin Options"
+msgstr "Optionen der Abstände jedes Elements"
+
+#: includes/class-ultimate-post-list-options.php:520
+msgid "Set the space between each list item or grid element."
+msgstr "Setze den Füllraum zwischen jedem Listenpunkt oder Rasterelement."
+
+#: includes/class-ultimate-post-list-options.php:522
+msgid "Top item margin in px"
+msgstr "Oberer Abstand eines Elements in px"
+
+#: includes/class-ultimate-post-list-options.php:523
+msgid "Bottom item margin in px"
+msgstr "Unterer Abstand eines Elements in px"
+
+#: includes/class-ultimate-post-list-options.php:524
+msgid "Left item margin in px"
+msgstr "Linker Abstand eines Elements in px"
+
+#: includes/class-ultimate-post-list-options.php:525
+msgid "Right item margin in px"
+msgstr "Rechter Abstand eines Elements in px"
+
+#: includes/class-ultimate-post-list-options.php:1047
+msgid "Specified width and height"
+msgstr "Angegebende Breite und Höhe"
+
+#: includes/class-ultimate-post-list-widget.php:17
+msgid "List of your site&#8217;s posts as configured with Ultimate Post List."
+msgstr "Liste der Beiträge wie mit Ultimative Beitragsliste eingestellt."
+
+#~ msgid "Shortcode"
+#~ msgstr "Shortcode"
