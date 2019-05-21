@@ -1,0 +1,525 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooLentor - WooCommerce Addons for Elementor Page "
+"Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 05:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: includes/widgets/product_tabs.php:79
+msgid "1"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:80
+msgid "2"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:81
+msgid "3"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:82
+msgid "4"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:83
+msgid "5"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:84
+msgid "6"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:1374
+#: includes/widgets/product_tabs.php:1498
+msgid ":"
+msgstr ""
+
+#: woolentor_addons_elementor.php:54
+#, php-format
+msgid ""
+"<strong>Woolentor Addons for Elementor</strong> requires "
+"%1$s\"Elementor\"%2$s plugin to be installed and activated. Please install "
+"Elementor to continue."
+msgstr ""
+
+#: woolentor_addons_elementor.php:47
+msgid ""
+"<strong>Woolentor Addons for Elementor</strong> requires Elementor plugin to "
+"be active. Please activate Elementor to continue."
+msgstr ""
+
+#: woolentor_addons_elementor.php:48
+msgid "Activate Elementor"
+msgstr ""
+
+#: woolentor_addons_elementor.php:124
+msgid "Add to Compare"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:208 includes/widgets/product_tabs.php:979
+#: includes/widgets/product_tabs.php:1067
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:163
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:500
+msgid "Autoplay animation speed"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:487
+msgid "Autoplay speed"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:786
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:659 includes/widgets/product_tabs.php:715
+#: includes/widgets/product_tabs.php:831
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/add_banner.php:29
+msgid "Banner"
+msgstr ""
+
+#: includes/widgets/add_banner.php:63
+msgid "Banner image"
+msgstr ""
+
+#: includes/widgets/add_banner.php:91
+msgid "Banner Sub Title"
+msgstr ""
+
+#: includes/widgets/add_banner.php:83
+msgid "Banner Title"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:64
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:293 includes/widgets/product_tabs.php:382
+#: includes/widgets/product_tabs.php:676 includes/widgets/product_tabs.php:732
+#: includes/widgets/product_tabs.php:803 includes/widgets/product_tabs.php:849
+#: includes/widgets/product_tabs.php:896
+msgid "Border"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:301 includes/widgets/product_tabs.php:391
+#: includes/widgets/product_tabs.php:684 includes/widgets/product_tabs.php:740
+#: includes/widgets/product_tabs.php:811 includes/widgets/product_tabs.php:857
+#: includes/widgets/product_tabs.php:904
+msgid "Border Radius"
+msgstr ""
+
+#: includes/widgets/add_banner.php:55
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/add_banner.php:202
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/add_banner.php:107
+msgid "Button Link"
+msgstr ""
+
+#: includes/widgets/add_banner.php:99
+msgid "Button Text"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:216 includes/widgets/product_tabs.php:987
+#: includes/widgets/product_tabs.php:1075
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/add_banner.php:141 includes/widgets/add_banner.php:176
+#: includes/widgets/add_banner.php:211 includes/widgets/product_tabs.php:260
+#: includes/widgets/product_tabs.php:347 includes/widgets/product_tabs.php:643
+#: includes/widgets/product_tabs.php:770
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:75
+msgid "Columns"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:146
+msgid "Comment count"
+msgstr ""
+
+#: woolentor_addons_elementor.php:124
+msgid "Compare"
+msgstr ""
+
+#: includes/widgets/add_banner.php:49
+msgid "Content Alignment"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:127
+msgid "Custom order"
+msgstr ""
+
+#: includes/custom-metabox.php:24
+msgid "Custom Product Badge Text"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:143
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:162
+msgid "Descending"
+msgstr ""
+
+#: includes/custom-metabox.php:26
+msgid "Enter your prefered SaleFlash text. Ex: New / Free etc"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:63
+msgid "Featured Products"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:58
+msgid "Filter By"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:339 includes/widgets/product_tabs.php:754
+#: includes/widgets/product_tabs.php:1101
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/add_banner.php:227
+msgid "Hover Color"
+msgstr ""
+
+#. Author of the plugin
+msgid "HT Plugins"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo.wphash.com/woolentor/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://htplugins.com/"
+msgstr ""
+
+#: includes/widgets/add_banner.php:109
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:142
+msgid "ID"
+msgstr ""
+
+#: woolentor_addons_elementor.php:55
+msgid "Install Elementor"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:224 includes/widgets/product_tabs.php:995
+#: includes/widgets/product_tabs.php:1083
+msgid "Justified"
+msgstr ""
+
+#: includes/widgets/add_banner.php:53 includes/widgets/product_tabs.php:212
+#: includes/widgets/product_tabs.php:983 includes/widgets/product_tabs.php:1071
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:67
+msgid "Mixed order Products"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:567
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:600
+msgid "Mobile Resolution"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:144
+msgid "Name"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:762
+msgid "Navigation"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:635
+msgid "Navigation Arrow"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:707 includes/widgets/product_tabs.php:823
+msgid "Navigation Dots"
+msgstr ""
+
+#: includes/custom-metabox.php:25
+msgid "New"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:462
+msgid "No"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:141
+msgid "None"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:244 includes/widgets/product_tabs.php:628
+#: includes/widgets/product_tabs.php:888
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:158
+msgid "order"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:137
+msgid "Orderby"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:695
+msgid "Padding"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:466
+msgid "Pause on Hover?"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:1042
+msgid "Price color"
+msgstr ""
+
+#: includes/custom-metabox.php:7
+msgid "Product Badge"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:116
+msgid "Product Categories"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:943
+msgid "Product content area padding"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:955 includes/widgets/product_tabs.php:1123
+msgid "Product content background"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:1139
+msgid "Product hover content area padding"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:915
+msgid "Product image area padding"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:927
+msgid "Product image background"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:1034
+msgid "Product Price"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:37
+msgid "Product Settings"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:184
+msgid "Product slider"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:44
+msgid "Product style"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:48
+msgid "Product style One"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:50
+msgid "Product style Three"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:49
+msgid "Product style Two"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:174
+msgid "Product Tab"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:276 includes/widgets/product_tabs.php:364
+msgid "Product tab menu background"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:104
+msgid "Products Count"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:147
+msgid "Random"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:62
+msgid "Recent Products"
+msgstr ""
+
+#: includes/widgets/add_banner.php:54 includes/widgets/product_tabs.php:220
+#: includes/widgets/product_tabs.php:991 includes/widgets/product_tabs.php:1079
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:92
+msgid "Rows"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:65
+msgid "Sale Products"
+msgstr ""
+
+#: includes/helper-function.php:129
+msgid "Sale!"
+msgstr ""
+
+#: includes/helper-function.php:47
+msgid "Select"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:435
+msgid "Slider Arrow"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:473
+msgid "Slider auto play"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:613
+msgid "Slider Controller Style"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:448
+msgid "Slider dots"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:512 includes/widgets/product_tabs.php:545
+#: includes/widgets/product_tabs.php:588
+msgid "Slider item to scroll"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:420 includes/widgets/product_tabs.php:533
+#: includes/widgets/product_tabs.php:576
+msgid "Slider Items"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:410
+msgid "Slider Option"
+msgstr ""
+
+#: includes/widgets/add_banner.php:36 includes/widgets/add_banner.php:125
+#: includes/widgets/product_tabs.php:875
+msgid "Style"
+msgstr ""
+
+#: includes/widgets/add_banner.php:40
+msgid "Style One"
+msgstr ""
+
+#: includes/widgets/add_banner.php:41
+msgid "Style Two"
+msgstr ""
+
+#: includes/widgets/add_banner.php:167
+msgid "Sub Title"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:324
+msgid "Tab Menu margin"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:312
+msgid "Tab Menu padding"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:198
+msgid "Tab Menu Style"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:524
+msgid "Tablet"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:557
+msgid "Tablet Resolution"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:601
+msgid "The resolution to mobile."
+msgstr ""
+
+#: includes/widgets/product_tabs.php:558
+msgid "The resolution to tablet."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The WooCommerce elements library for Elementor page builder plugin for "
+"WordPress."
+msgstr ""
+
+#: includes/widgets/add_banner.php:133 includes/widgets/product_tabs.php:145
+#: includes/widgets/product_tabs.php:971
+msgid "Title"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:1018
+#: includes/widgets/product_tabs.php:1108
+msgid "Title color"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:66
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/widgets/add_banner.php:158 includes/widgets/add_banner.php:193
+#: includes/widgets/add_banner.php:244
+msgid "Typography"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:188
+msgid "When product tab is off then task slider."
+msgstr ""
+
+#: includes/widgets/add_banner.php:13
+msgid "WL: Add Banner"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:14
+msgid "WL: Product Tab"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooLentor - WooCommerce Addons for Elementor Page Builder"
+msgstr ""
+
+#: includes/widgets/product_tabs.php:463
+msgid "Yes"
+msgstr ""

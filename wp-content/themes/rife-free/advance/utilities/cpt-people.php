@@ -259,9 +259,13 @@ if(!function_exists('apollo13framework_people_list_item')) {
 				$text_style = ' style="color:' . esc_attr( $text_color ). ';"';
 			}
 
-			$html .= '<div class="covering-image"></div>';
+            $href = get_permalink($post_id);
 
-			$html .= '<div class="caption">';
+            $html .= '<div class="covering-image"></div>';
+
+            $html .= '<a href="'.$href.'">';
+
+            $html .= '<div class="caption">';
 
 			if ( post_password_required( $post_id ) ) {
 
@@ -301,6 +305,7 @@ if(!function_exists('apollo13framework_people_list_item')) {
 
 			}
 			$html .= '</div>'; //.caption
+            $html .= '</a>';
 
 			$html .= '</div>';
 		}

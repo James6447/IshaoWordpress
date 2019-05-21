@@ -100,6 +100,128 @@ th, td{
 	border-top: 1px solid #ccc;
 }
 
+.goog-te-ftab-frame, .goog-te-banner-frame{
+	visibility: hidden !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.smooth_slider{
+		height: 350px !important;	
+	}
+	.custom-select{
+		width: 92px !important;
+	}
+}
+
+.smooth_slider .smooth_sliderb{
+	text-align: center;
+}
+.smooth_slider{
+    max-width: none !important;
+    overflow: initial !important;
+	min-height: unset !important;
+}
+.smooth_slider .smooth_slideri{
+	background-color: transparent !important;
+}
+.smooth_slider_content{
+	display: flex;
+	justify-content: center;
+    height: 100%;
+}
+.smooth_slider .smooth_slider_thumbnail{
+	max-height: none !important;
+    height: 90%;
+}
+.smooth_slider h2, .smooth_slider p {
+	padding: 0px 12px !important;
+    text-align: left;
+}
+.smooth_slider .smooth_next, .smooth_slider .smooth_prev{
+	top:unset !important;
+	bottom: 8%;
+}
+.smooth_slider .smooth_next, .smooth_slider .smooth_prev{
+	background: none !important;
+	width: 90px !important;
+	transition: color 0.3s;
+	color: white;
+}
+.smooth_slider .smooth_next:hover, .smooth_slider .smooth_prev:hover {
+	color: #bbd668;
+}
+#smooth_slider_3_nav{
+	visibility: hidden;
+}
+/*the container must be positioned relative:*/
+.custom-select {
+/*   position: relative; */
+  font-family: Arial;
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    bottom: 5%;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: transparent;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+position: absolute;
+    content: "<";
+    top: 10px;
+    right: 22px;
+    border-color: #fff transparent transparent transparent;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(270deg);
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+    content: ">";
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+	border: 1px solid transparent;
+    border-color: white;
+  cursor: pointer;
+  user-select: none;
+	height: 60px;
+    line-height: 42px;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 
 /* =============================================================================
@@ -429,6 +551,7 @@ hr{
    ========================================================================== */
 html.show-scroll body{
 	overflow-y: scroll;
+	top: 0 !important;
 }
 html.post-lightbox-active body{
 	overflow-y: hidden;
@@ -3006,6 +3129,68 @@ header.header-variant-one_line_centered .socials{
 
 /* RECENT/POPULAR/RELATED POSTS WIDGET */
 /* RECENT COMMENTS WIDGET */
+#special-post-list > div > div > div > div.archive-item{
+	background-color: white;
+}
+#special-post-list > div > ul {
+	position: absolute;
+    top: -110px;
+}
+#special-post-list > div > div > div > div.archive-item > .formatter{
+	position: relative;
+}
+#special-post-list > div > div > div > div.archive-item > .formatter > div > .post-meta{
+	bottom: 5%;
+    position: absolute;
+}
+#special-post-list > div > div > div > div.archive-item > .formatter{
+	height:200px;
+}
+.normal-formatter{
+	height:200px !important;	
+}
+@media only screen and (min-width: 1024px) {
+	#special-post-list > div > div > div{
+		position: unset !important;
+	}
+	#special-post-list .archive-item, .grid-master{
+		position: unset;
+	}
+	.first-special-post{
+		width: 100% !important;
+		display: flex;
+		margin: 0 0 100px 0;
+	}
+	.first-special-post .post-media, .last-special-post .post-media{
+		width: 60%;
+		height:unset;
+	}
+	.last-special-post{
+		width: 100% !important;
+		margin: 100px 0 70px 0 !important;
+	}
+	.last-special-post .post-media{
+		float: right;
+	}
+	.last-post-link{
+		position: absolute;
+		bottom: 6%;
+		left: 33%;
+	}
+	.first-post-link{
+		position: absolute;
+		bottom: 6%;
+		right: -28%;
+	}
+	.normal-post-link{
+	    position: absolute;
+		bottom: 8%;
+		right: 5%;
+	}
+	#special-post-list > div > div > div > div.archive-item > .formatter{
+		height:unset;
+	}
+}
 .widget_about_posts .item{
 	margin: 0 0 10px;
 }
@@ -4267,7 +4452,7 @@ div.attachment .wp-video{
 }
 .bricks-frame .formatter{
 	background-color: transparent !important;
-	padding:0 30px 0 0 !important;
+	padding:0 30px 0 30px !important;
 }
 .post-media {
 	position: relative;
@@ -4458,7 +4643,7 @@ h2.post-title:hover a {
 .more-link{
 	display: inline-block;
 	line-height: 1.5em;
-	font-size: .889em;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -4974,7 +5159,7 @@ span.result-count{
 .category-filter a{
 	display: block;
 	line-height: 1.8em;
-	font-size: 14px;
+	font-size: 20px;
 	color: #aaa;
 	text-transform: uppercase;
 	text-decoration: underline !important;
@@ -5367,6 +5552,9 @@ span.result-count{
 /* =============================================================================
     Post lightbox
     ========================================================================== */
+.singlep-page-post-list .posts-grid-container{
+	position: unset;
+}
 .a13-post-lightbox{
 	z-index: 23456; /* lower than theme lightbox for images */
 	position: fixed;
@@ -8965,7 +9153,7 @@ textarea{
 	#secondary,
 	.formatter,
 	.with-sidebar .formatter{
-		padding: 40px;
+		padding: 0px;
 	}
 	.single-post .slidesjs-pagination,
 	.page .slidesjs-pagination{
@@ -9196,7 +9384,7 @@ textarea{
 	/* content layouts */
 	.formatter,
 	.with-sidebar .formatter{
-		padding: 20px;
+		padding: 0px;
 	}
 	#secondary,
 	#side-menu div.scroll-wrap{

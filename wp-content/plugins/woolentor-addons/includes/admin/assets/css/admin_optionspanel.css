@@ -1,0 +1,78 @@
+.woolentor-themes-area {
+  margin: 20px 0;
+  overflow: hidden;
+}
+.woolentor-single-theme {
+  float: left;
+  padding: 0 15px;
+  width: 25%;
+}
+.woolentor-single-theme img{
+    width: 100%;
+}
+.woolentor-button {
+  border: 1px solid #ccc;
+  color: #23282d;
+  display: inline-block;
+  padding: 7px 20px;
+  text-decoration: none;
+  transition: all 0.4s ease 0s;
+}
+.woolentor-button:hover{
+    background: #ff4136;
+    color: #fff;
+    border-color: #ff4136;
+}
+#woolentor_themes_library_tabs .wl-submit-button,#woolentor_template_library_tabs .wl-submit-button{
+    display: none;
+}
+.woolentor-themes-row {
+  margin-left: -15px;
+  overflow: hidden;
+}
+.woolentor-template-area {
+  overflow: hidden;
+}
+.woolentor-theme-content h3 {
+  font-weight: 400;
+}
+.woolentor-theme-content h3 span{
+    color: #ff3535;
+}
+#woolentor_template_library_tabs h2{display: none;}
+
+.woolentor-admin-tab-pane{
+  display: none;
+}
+.woolentor-admin-tab-pane.wlactive{
+  display: block;
+}
+
+.woolentor-admin-tab-area {
+  margin: 30px 0 20px;
+}
+.woolentor-admin-tabs {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.woolentor-admin-tabs li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.woolentor-admin-tabs li:last-child{
+    margin-right: 0;
+}
+.woolentor-admin-tabs li a {
+  border: 1px solid #ccc;
+  color: #666;
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.woolentor-admin-tabs li a:hover,.woolentor-admin-tabs li a.wlactive {
+  background: #ff4136 none repeat scroll 0 0;
+  border-color: #ff4136;
+  color: #fff;
+}
