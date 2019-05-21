@@ -283,15 +283,15 @@ if(!function_exists('apollo13framework_people_list_item')) {
 
 				$html .= '<div class="texts_group"'.$text_style.'>';
 
-				//return taxonomy for people
-				$html .= '<div class="subtitle">' . esc_html( $apollo13framework_a13->get_meta( '_subtitle' ) ) . '</div>';
+                //title
+                $html .= the_title( '<h2 class="post-title"'.$text_style.'>', '</h2>', false );
 
-				//title
-				$html .= the_title( '<h2 class="post-title"'.$text_style.'>', '</h2>', false );
+                //return taxonomy for people
+                $html .= '<div class="subtitle">' . esc_html( $apollo13framework_a13->get_meta( '_subtitle' ) ) . '</div>';
 
-				$html .= '<div class="people-desc"'.$text_style.'>';
-				$html .= get_the_content();
-				$html .= '</div>';
+//                $html .= '<div class="people-desc"'.$text_style.'>';
+//				$html .= get_the_content();
+//				$html .= '</div>';
 
 				//social icons
 				$all_meta    = get_post_meta( $post->ID );

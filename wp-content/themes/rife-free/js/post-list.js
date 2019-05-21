@@ -293,5 +293,22 @@ jQuery(document).ready(function() {
     slider.remove();
     jQuery('.smooth_sliderb').append(new_slider);
     //--------END people-single page slider------------//
+
+    //--------------------//
+    //***********Team page people item list**********//
+    var people_list = jQuery('.people-grid-container > .archive-item');
+
+    people_list.each(function (index, element){
+        var position_text = jQuery(jQuery(element)[0].children[3].children[0].children[0].children[1]).text().split('.');
+        var new_position_text = position_text.join('.<br>');
+        var new_position = '<div class="subtitle">' +
+            new_position_text +
+            '</div>';
+
+        jQuery(jQuery(element)[0].children[3].children[0].children[0].children[1]).remove();
+        jQuery(jQuery(element)[0].children[3].children[0].children[0]).append(new_position);
+    })
+
+    //--------END Team page people item list------------//
 });
 
